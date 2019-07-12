@@ -1,0 +1,35 @@
+body {
+  background-color: #272838;
+}
+
+.main {
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  animation-delay: 250ms;
+}
+
+.reg {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.bold {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 800;
+  padding-bottom: 2%;
+  color: white;
+}
+
+p {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+}
+
+.fa-twitter, .fa-github, .fa-linkedin-in {
+  color: white;
+  padding: 5px;
+}
