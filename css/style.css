@@ -1,5 +1,5 @@
 body {
-  background-color: #272838;
+  background-color: #2F3030;
 }
 
 .main {
@@ -18,7 +18,6 @@ body {
 .bold {
   font-family: 'Catamaran', sans-serif;
   font-weight: 800;
-  padding-bottom: 2%;
   color: white;
 }
 
@@ -29,7 +28,18 @@ p {
   color: white;
 }
 
+.listText {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+
 .fa-twitter, .fa-github, .fa-linkedin-in {
   color: white;
   padding: 5px;
+}
+
+.white {
+  color: white
 }
