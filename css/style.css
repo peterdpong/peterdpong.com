@@ -37,9 +37,20 @@ p {
 
 .fa-twitter, .fa-github, .fa-linkedin-in {
   color: white;
+  transition: .5s;
   padding: 5px;
+  margin: 5px;
+}
+
+.fa-twitter:hover, .fa-github:hover, .fa-linkedin-in:hover {
+  color: #f7d059;
+  box-shadow: 2px 2px 0px 1px rgba(247, 208, 89, 1);
 }
 
 .white {
   color: white
+}
+
+a:link, a:hover, a:visited, a:active{
+  color:#f7d059
 }
