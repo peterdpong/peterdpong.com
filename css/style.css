@@ -1,3 +1,9 @@
+/*Colors
+Background Color: #2F3030
+Accent Color: #f7d059 rgba(247, 208, 89, 1)
+Accent Dark: #3d3d3d
+*/
+
 body {
   background-color: #2F3030;
 }
@@ -7,6 +13,10 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   animation-delay: 250ms;
+}
+
+.projects{
+  animation-delay: 900ms;
 }
 
 .reg {
@@ -21,7 +31,7 @@ body {
   color: white;
 }
 
-p {
+.bio {
   font-family: 'Catamaran', sans-serif;
   font-weight: 500;
   font-size: 25px;
@@ -45,12 +55,39 @@ p {
 .fa-twitter:hover, .fa-github:hover, .fa-linkedin-in:hover {
   color: #f7d059;
   box-shadow: 2px 2px 0px 1px rgba(247, 208, 89, 1);
+  transform: translate(-5px, -5px);
 }
 
 .white {
   color: white
 }
 
+.carddark {
+  background-color: #3d3d3d;
+  color: white !important;
+  transition: 250ms ease-in;
+}
+
+.carddark:hover {
+  box-shadow: 2px 2px 0px 1px rgba(247, 208, 89, 1);
+  transform: translate(-5px, -5px);
+}
+
 a:link, a:hover, a:visited, a:active{
   color:#f7d059
+}
+
+.btn-custom {
+  color: #2F3030 !important; 
+  background-color: #f7d059;
+  border-color: #f7d059;
+  transition: 250ms ease-in;
+}
+
+.btn-custom:hover {
+  color: #fff !important;
+  background-color: #2F3030;
+  border-color: #2F3030;
+  box-shadow: 2px 2px 0px 1px #f7d059;
+  transform: translate(-5px, -5px);
 }

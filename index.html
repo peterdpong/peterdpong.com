@@ -20,23 +20,51 @@
         <div class="text-center">
           <h1 class="reg">Hi. My name is</h1>
           <h1 class="bold" style="padding-bottom: 2%">Soraphoj Damrongpiriyapong (Peter D'Pong)</h1>
-          <p>I am currently a 1st Year student at the University of Toronto studying Computer Engineering.<br>
+          <p class="bio">I am currently a 1st Year student at the University of Toronto studying Computer Engineering.<br>
             Experience in C and web development, currently learning Android Development, and Javascript. Interested in mobile development and game development. 
             <br> Born in 🇹🇭, living in 🇨🇦.
           </p>
-          <p>Contact me at <a href="mailto:peterdpong@gmail.com">peterdpong@gmail.com</a>.</p>
+          <p class="bio">Contact me at <a href="mailto:peterdpong@gmail.com">peterdpong@gmail.com</a>.</p>
           <div class="icons align-middle">
+            <a class="btn btn-custom" style="margin:0.5%" href="#collapse1" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">Twitter</a>
+            <a class="btn btn-custom" style="margin:0.5%" href="#collapse1" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">Github</a>
+            <a class="btn btn-custom" style="margin:0.5%" href="#collapse1" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">Linkedin</a>
+
+            
+            <!-- Previous Icons
               <a href="https://www.twitter.com/peterdpong"><i class="fab fa-twitter fa-2x"></i></a>
               <a href="https://www.github.com/peterdpong"><i class="fab fa-github fa-2x"></i></a>
-              <a href="https://www.linkedin.com/in/soraphoj-damrongpiriyapong-15a93318a/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+              <a href="https://www.linkedin.com/in/soraphoj-damrongpiriyapong-15a93318a/"><i class="fab fa-linkedin-in fa-2x"></i></a> -->
+
+
           </div>
         </div>
       </div>
     </div>
 
-    <div class="projects">
+    <div class="projects animated fadeInUp">
         <div class="container-fluid">
+            <div class="text-center">
+              <h2 class="bold" style="padding-top: 2%; padding-bottom: 2%;">Projects</h2>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card carddark">
+                  <div class="card-body">
+                    <h4 class="reg text-center"><bold>Reversi(Orthello) Game and AI</bold></h5>
+                    <p class="card-text"><bold>Coded in C for Computer Fundamentals class at University of Toronto. <br>The AI placed 9th on the class leaderboard.</bold></p>
+                    <a class="btn btn-custom" href="#collapse1" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseExample">Learn More.</a>
 
+                    <div class="collapse" id="collapse1" style="padding-top: 2%;">
+                        <p class="card-text">AI utilized dynamic positional weights, and current and future board score. 
+                          Looking ahead was implemented using a recursive MiniMax looking roughly 3 moves ahead since there was a 1 second limit to find a move.
+                          <br>Efficiency of the AI could have been improved using Alpha-Beta Pruning and some tweaks to the weights.
+                        </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
     </div>
 
