@@ -21,7 +21,7 @@
           <h1 class="reg">Hi. My name is</h1>
           <h1 class="bold" style="padding-bottom: 2%">Soraphoj Damrongpiriyapong (Peter D'Pong)</h1>
           <p class="bio">I am currently a 1st Year student at the University of Toronto studying Computer Engineering.<br>
-            Experience in C and web development, currently learning Android Development, and Javascript. Interested in mobile development and game development. 
+            Experience in C and web development, currently learning Android Development, Kotlin, and C#. Interested in mobile development and video game development. 
             <br> Born in 🇹🇭, living in 🇨🇦.
           </p>
           <p class="bio">Contact me at <a href="mailto:peterdpong@gmail.com">peterdpong@gmail.com</a>.</p>
@@ -45,20 +45,28 @@
     <div class="projects animated fadeInUp">
         <div class="container-fluid">
             <div class="text-center">
-              <h2 class="bold" style="padding-top: 2%; padding-bottom: 2%;">Projects</h2>
+              <h2 class="bold underline" style="padding-top: 2%; padding-bottom: 1%;">Projects</h2>
             </div>
             <div class="row">
               <div class="col-sm-6">
                 <div class="card carddark">
-                  <div class="card-body">
-                    <h4 class="reg text-center"><bold>Reversi(Orthello) Game and AI</bold></h5>
-                    <p class="card-text"><bold>Coded in C for Computer Fundamentals class at University of Toronto. <br>The AI placed 9th on the class leaderboard.</bold></p>
+                  <div class="card-body cardbodycustom">
+                    <h4 class="cardtitle text-center"><bold>Reversi(Orthello) Game and AI</bold></h5>
+                    <h5 class="reg"><bold>Coded in C for Computer Fundamentals class at University of Toronto. <br>The AI placed 9th in the class leaderboard.</bold></h5>
                     <a class="btn btn-custom" href="#collapse1" data-toggle="collapse" role="button">Learn More.</a>
 
                     <div class="collapse" id="collapse1" style="padding-top: 2%;">
-                        <p class="card-text">AI utilized dynamic positional weights, and current and future board score. 
-                          Looking ahead was implemented using a recursive MiniMax looking roughly 3 moves ahead since there was a 1 second limit to find a move.
-                          <br>Efficiency of the AI could have been improved using Alpha-Beta Pruning and some tweaks to the weights.
+                      <h5 class="reg">How it was built.</h5>
+                      <p class="reg">The AI utilized a dynamic postional weight based on the current board state. In addtion, a function was 
+                        implemented to determine a current and future board score based on information such as corners, available moves and stability. Lastly a recursive
+                        MiniMax algorithm looking roughly 3 moves ahead was implemented. 3 moves ahead was chosen as the project required a move to be selected within 1 second</p>
+                      
+                      <h5 class="reg">Learnings.</h5>
+                        <p class="reg">This project was the largest that I have undertaken, it taught me a lot about how to work with a larger project by breaking up the code into 
+                          different functions and version control. The challenge itself was exciting as I had to code the game from scratch then on top work on the AI to play. One of the skills
+                          the project helped me work on was getting an idea and transferring into code. I was also able to get use to using the debugger more to fix and narrow down bugs in my code. 
+                          It also taught me to not over-think certain problems as I spent multiple hours fixing specific
+                          problems when I could have focus on improving it AI by implementing Alpha-Beta Pruning.
                         </p>
                     </div>
                   </div>

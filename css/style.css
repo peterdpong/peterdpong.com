@@ -31,6 +31,10 @@ body {
   color: white;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .bio {
   font-family: 'Catamaran', sans-serif;
   font-weight: 500;
@@ -73,6 +77,17 @@ body {
   transform: translate(-5px, -5px);
 }
 
+.cardtitle {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 500;
+  margin-bottom: 2%;
+  color: #f7d059;
+}
+
+.cardbodycustom {
+  margin-top: 2%;
+}
+
 a:link, a:hover, a:visited, a:active{
   color:#f7d059
 }
@@ -82,6 +97,7 @@ a:link, a:hover, a:visited, a:active{
   background-color: #f7d059;
   border-color: #f7d059;
   transition: 250ms ease-in;
+  margin-top: 2%;
 }
 
 .btn-custom:hover {
