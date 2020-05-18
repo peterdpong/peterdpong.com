@@ -19,28 +19,22 @@ body {
 .main {
   padding-top: 5%;
   animation-delay: 250ms;
-  margin-left: 15rem;
-  margin-right: 15rem;
 }
 
 .projects{
   animation-delay: 900ms;
-  margin-left: 15rem;
-  margin-right: 15rem;
   margin-bottom: 5rem;
 }
 
 
 .nameheader {
   font-family: 'Work Sans', sans-serif;
-  font-size: 50px;
   font-weight: 600;
   color: white;
 }
 
 .bio {
   font-family: 'Work Sans', sans-serif;
-  font-size: 20px;
   font-weight: 500;
   color: white;
 }
@@ -61,6 +55,7 @@ body {
   background-color: #404b69;
   color: white !important;
   transition: 250ms ease-in;
+  margin-bottom: 1rem;
 }
 
 /* .carddark:hover {
@@ -100,6 +95,7 @@ a:link, a:hover, a:visited, a:active{
   border-color: #f73859;
   transition: 250ms ease-in;
   margin-right: 0.5em;
+  margin-bottom: 0.5em;
   font-family: 'Work Sans', sans-serif;
 }
 
@@ -117,6 +113,7 @@ a:link, a:hover, a:visited, a:active{
   border-color: #f73859;
   transition: 250ms ease-in;
   margin-right: 0.5em;
+  margin-bottom: 0.5em;
   font-family: 'Work Sans', sans-serif;
 }
 
@@ -126,4 +123,70 @@ a:link, a:hover, a:visited, a:active{
   border-color: #283149;
   box-shadow: 2px 2px 0px 1px #f73859;
   transform: translate(-5px, -5px);
+}
+
+/* Small Screens */
+@media only screen and (max-width: 700px) {
+  .main {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .projects {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .bio {
+    font-size: 15px;
+  }
+
+  .nameheader {
+    font-size: 28px;
+  }
+
+}
+
+/* Medium Screens */
+@media only screen and (min-width: 600px) {
+  .main {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .projects {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .bio {
+    font-size: 20px;
+  }
+
+  .nameheader {
+    font-size: 50px;
+  }
+
+}
+
+/* Large Screens */
+@media only screen and (min-width: 900px) {
+  .main {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .projects {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .bio {
+    font-size: 20px;
+  }
+
+  .nameheader {
+    font-size: 50px;
+  }
+
 }
