@@ -4,14 +4,6 @@ Accent Color: #f73859
 Accent Dark: #404b69
 */
 
-::-moz-selection { 
-  background: #f73859; 
-  color: white;
-}
-::selection { background:#f73859;
-  color: white;
-}
-
 body {
   background-color: #283149;
 }
@@ -51,8 +43,29 @@ body {
   color: white
 }
 
+.white::selection{
+  background:#f73859;
+  color: white;
+}
+
+.red {
+  color: #f73859;
+}
+
+.red::selection{
+  background: white;;
+  color: #f73859;
+}
+
 .carddark {
   background-color: #404b69;
+  color: white !important;
+  transition: 250ms ease-in;
+  margin-bottom: 1rem;
+}
+
+.cardgreen{
+  background-color: #17B978;
   color: white !important;
   transition: 250ms ease-in;
   margin-bottom: 1rem;
@@ -66,7 +79,7 @@ body {
 .cardtitle {
   font-family: 'Work Sans', sans-serif;
   margin-bottom: 2%;
-  color: #f73859;
+
 }
 
 .cardsub {
@@ -84,10 +97,6 @@ body {
   margin-bottom: 1rem;
 }
 
-
-a:link, a:hover, a:visited, a:active{
-  color:#f73859
-}
 
 .btn-custom {
   color: #fff !important; 
