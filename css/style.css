@@ -48,13 +48,13 @@ body {
   color: white;
 }
 
-.red {
+.red, .red:hover {
   color: #f73859;
 }
 
 .red::selection{
-  background: white;;
-  color: #f73859;
+  background: #f73859;
+  color: white;
 }
 
 .carddark {
