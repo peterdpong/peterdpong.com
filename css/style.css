@@ -71,6 +71,14 @@ body {
   margin-bottom: 1rem;
 }
 
+.cardwhite{
+  background-color: #FFFFFF;
+  color: black !important;
+  transition: 250ms ease-in;
+  margin-bottom: 1rem;
+}
+
+
 /* .carddark:hover {
   box-shadow: 2px 2px 0px 1px rgba(247, 208, 89, 1);
   transform: translate(-5px, -5px);
@@ -84,14 +92,12 @@ body {
 
 .cardsub {
   font-family: 'Work Sans', sans-serif;
-  color: white;
   font-size: 13px;
 
 }
 
 .cardbody {
   font-family: 'Work Sans', sans-serif;
-  color: white;
   font-weight: 400;
   font-size: 15px;
   margin-bottom: 1rem;
@@ -133,6 +139,21 @@ body {
   box-shadow: 2px 2px 0px 1px #f73859;
   transform: translate(-5px, -5px);
 }
+
+.app {
+  width: 100%;
+  border-radius: 5px;
+  bottom: 10rem;
+}
+
+.appScreen {
+  overflow: hidden;
+  height: 100%;
+  width: 216px;
+  margin: 1rem;
+}
+
+
 
 /* Small Screens */
 @media only screen and (max-width: 700px) {
