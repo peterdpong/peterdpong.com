@@ -1,64 +1,52 @@
-/*Colors
-Background Color: #283149
-Accent Color: #f73859
-Accent Dark: #404b69
-*/
-
 body {
-  background-color: #283149;
+  background-color: #1f2022;
 }
 
 .main {
-  padding-top: 5%;
+  padding-top: 2%;
   animation-delay: 250ms;
 }
 
-.projects{
+.projects {
   animation-delay: 900ms;
   margin-bottom: 5rem;
 }
 
-
-.nameheader {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
+.fixedName {
+  margin-top: 15px;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
   color: white;
+}
+
+
+.nameHeader {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 500;
+  color: white;
+  line-height: 1.5;
 }
 
 .bio {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 500;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
   color: white;
+  padding-bottom: 2%;
+  line-height: 1.35;
 }
 
 .sectiontitle {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 30px;
-  font-weight: 600;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
   color: white;
+  padding-top: 2%; 
+  padding-bottom: 0.5%;
 }
 
 
-.white {
-  color: white
-}
-
-.white::selection{
-  background:#f73859;
-  color: white;
-}
-
-.red, .red:hover {
-  color: #f73859;
-}
-
-.red::selection{
-  background: #f73859;
-  color: white;
-}
 
 .carddark {
-  background-color: #404b69;
+  background-color: #242424;
   color: white !important;
   transition: 250ms ease-in;
   margin-bottom: 1rem;
@@ -85,7 +73,7 @@ body {
 } */
 
 .cardtitle {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
   margin-bottom: 2%;
 
 }
@@ -97,72 +85,74 @@ body {
 }
 
 .cardbody {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
   font-weight: 400;
   font-size: 15px;
   margin-bottom: 1rem;
 }
 
 
+/* 
+Button w/ Animation
 .btn-custom {
   color: #fff !important; 
-  background-color: #f73859;
-  border-color: #f73859;
+  background-color: #03a9f4;
+  border-color: #03a9f4;
   transition: 250ms ease-in;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
 }
 
 .btn-custom:hover {
-  color: #fff !important;
-  background-color: #404b69;
-  border-color: #404b69;
-  box-shadow: 2px 2px 0px 1px #f73859;
+  color: #1f2022 !important;
+  background-color: white;
+  border-color: white;
+  box-shadow: 2px 2px 0px 1px #03a9f4;
   transform: translate(-5px, -5px);
-}
+} */
 
-.btn-custominv {
-  color: #fff !important; 
-  background-color: #f73859;
-  border-color: #f73859;
-  transition: 250ms ease-in;
+
+.btn-custom {
+  color: #1f2022 !important;
+  background-color: white;
+  border-color: white;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
+  box-shadow: none;
 }
 
-.btn-custominv:hover {
-  color: #fff !important;
-  background-color: #283149;
-  border-color: #283149;
-  box-shadow: 2px 2px 0px 1px #f73859;
-  transform: translate(-5px, -5px);
+.btn-custom:hover{
+  color: white !important;
+  background-color: #1f2022;
+  border-color: #1f2022;
+  box-shadow: none;
 }
 
-.app {
-  width: 100%;
-  border-radius: 5px;
-  bottom: 10rem;
+.btn-custom-inv {
+  color: white !important;
+  background-color: #1f2022;
+  border-color: #1f2022;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-weight: 400;
+  box-shadow: none;
 }
 
-.appScreen {
-  overflow: hidden;
-  height: 100%;
-  width: 216px;
-  margin: 1rem;
+.btn-custom-inv:hover{
+  color: #1f2022 !important;
+  background-color: white;
+  border-color: white;
+  box-shadow: none;
 }
-
-
 
 /* Small Screens */
 @media only screen and (max-width: 700px) {
-  .main {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
-  .projects {
+  .main, .projects, .fixedName {
     margin-left: 5rem;
     margin-right: 5rem;
   }
@@ -179,12 +169,7 @@ body {
 
 /* Medium Screens */
 @media only screen and (min-width: 600px) {
-  .main {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
-  .projects {
+  .main, .projects, .fixedName {
     margin-left: 5rem;
     margin-right: 5rem;
   }
@@ -201,12 +186,7 @@ body {
 
 /* Large Screens */
 @media only screen and (min-width: 900px) {
-  .main {
-    margin-left: 10rem;
-    margin-right: 10rem;
-  }
-
-  .projects {
+  .main, .projects, .fixedName {
     margin-left: 10rem;
     margin-right: 10rem;
   }
