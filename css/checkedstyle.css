@@ -20,6 +20,11 @@ body, html {
   font-weight: 700;
 }
 
+.version {
+  color: #97a3bd;
+  font-family: 'Rubik', sans-serif;
+}
+
 .subtitle {
   color: #FFF;
   font-family: 'Rubik', sans-serif;
@@ -36,6 +41,11 @@ body, html {
 
 .green {
   color: #29c385;
+}
+
+.list {
+  color: #FFF;
+  font-family: 'Rubik', sans-serif;
 }
 
 .btn-custom {
@@ -69,4 +79,19 @@ body, html {
 
 .custm-link, .custm-link:hover {
   color: #FFF;
+}
+
+.paragraphtext {
+  color: #FFF
+}
+
+.topbar {
+  margin-top: 2rem;
+  margin-left: 7.5rem;
+  margin-right:7.5rem;
+}
+
+.content {
+  margin-left: 7.5rem;
+  margin-right: 7.5rem;
 }
