@@ -14,21 +14,21 @@ body {
 
 .fixedName {
   margin-top: 15px;
-  font-family: 'Palanquin Dark', sans-serif;
-  font-weight: 400;
+  font-family: 'Palanquin', sans-serif;
+  font-weight: 700;
   color: white;
 }
 
 
 .nameHeader {
-  font-family: 'Palanquin Dark', sans-serif;
-  font-weight: 500;
+  font-family: 'Palanquin', sans-serif;
+  font-weight: 700;
   color: white;
   line-height: 1.5;
 }
 
 .bio {
-  font-family: 'Palanquin Dark', sans-serif;
+  font-family: 'Palanquin', sans-serif;
   font-weight: 400;
   color: white;
   padding-bottom: 2%;
@@ -36,8 +36,8 @@ body {
 }
 
 .sectiontitle {
-  font-family: 'Palanquin Dark', sans-serif;
-  font-weight: 400;
+  font-family: 'Palanquin', sans-serif;
+  font-weight: 700;
   color: white;
   padding-top: 2%; 
   padding-bottom: 0.5%;
@@ -73,7 +73,8 @@ body {
 } */
 
 .cardtitle {
-  font-family: 'Palanquin Dark', sans-serif;
+  font-family: 'Palanquin', sans-serif;
+  font-weight: 700;
   margin-bottom: 2%;
 
 }
@@ -85,8 +86,8 @@ body {
 }
 
 .cardbody {
-  font-family: 'Palanquin Dark', sans-serif;
-  font-weight: 400;
+  font-family: 'Palanquin', sans-serif;
+  font-weight: 700;
   font-size: 15px;
   margin-bottom: 1rem;
 }
@@ -120,8 +121,9 @@ Button w/ Animation
   border-color: white;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
-  font-family: 'Palanquin Dark', sans-serif;
+  font-family: 'Palanquin', sans-serif;
   font-weight: 400;
+  font-size: 15px;
   box-shadow: none;
 }
 
@@ -138,8 +140,9 @@ Button w/ Animation
   border-color: #1f2022;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
-  font-family: 'Palanquin Dark', sans-serif;
+  font-family: 'Palanquin', sans-serif;
   font-weight: 400;
+  font-size: 15px;
   box-shadow: none;
 }
 
@@ -175,7 +178,7 @@ Button w/ Animation
   }
 
   .bio {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .nameheader {
@@ -192,7 +195,7 @@ Button w/ Animation
   }
 
   .bio {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .nameheader {
