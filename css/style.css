@@ -54,7 +54,7 @@ body {
 
 .cardyellow{
   background-color: #FFD571;
-  color: white !important;
+  color: #1f2022 !important;
   transition: 250ms ease-in;
   margin-bottom: 1rem;
 }
@@ -88,6 +88,7 @@ body {
 
 .cardsub {
   font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
   font-size: 13px;
 
 }
