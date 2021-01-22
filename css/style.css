@@ -59,6 +59,13 @@ body {
   margin-bottom: 1rem;
 }
 
+.cardblue{
+  background-color: #354dd1;
+  color: white !important;
+  transition: 250ms ease-in;
+  margin-bottom: 1rem;
+}
+
 .cardgreen{
   background-color: #17B978;
   color: white !important;
@@ -164,8 +171,8 @@ Button w/ Animation
 /* Small Screens */
 @media only screen and (max-width: 700px) {
   .main, .projects, .fixedName {
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
 
   .bio {
