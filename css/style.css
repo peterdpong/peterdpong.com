@@ -7,10 +7,10 @@ body {
   animation-delay: 250ms;
 }
 
-/* .experiences {
+.experiences {
   animation-delay: 900ms;
   margin-bottom: 1rem;
-} */
+}
 
 .projects {
   animation-delay: 900ms;
@@ -75,9 +75,23 @@ body {
   margin-bottom: 1rem;
 }
 
+.cardchecked{
+  background-color: #2d323f;
+  color: white !important;
+  transition: 250ms ease-in;
+  margin-bottom: 1rem;
+}
+
 .cardgreen{
   background-color: #17B978;
   color: white !important;
+  transition: 250ms ease-in;
+  margin-bottom: 1rem;
+}
+
+.cardlightgreen{
+  background-color: #70EE9C;
+  color: black !important;
   transition: 250ms ease-in;
   margin-bottom: 1rem;
 }
