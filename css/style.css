@@ -3,7 +3,8 @@ body {
 }
 
 .main {
-  padding-top: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   animation-delay: 250ms;
 }
 
@@ -35,7 +36,7 @@ body {
   font-family: 'Palanquin', sans-serif;
   font-weight: 600;
   color: white;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
   line-height: 1.35;
 }
 
