@@ -3,48 +3,49 @@ body {
 }
 
 .main {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   animation-delay: 250ms;
 }
 
 .experiences {
   animation-delay: 900ms;
-  margin-bottom: 1rem;
+  margin-bottom: 1%;
 }
 
 .projects {
   animation-delay: 900ms;
-  margin-bottom: 1rem;
+  margin-bottom: 1%;
 }
 
 .fixedName {
   margin-top: 15px;
-  font-family: 'Palanquin', sans-serif;
-  font-weight: 700;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
   color: white;
 }
 
 .nameHeader {
-  font-family: 'Palanquin', sans-serif;
-  font-weight: 700;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
   color: white;
   line-height: 1.5;
 }
 
 .bio {
-  font-family: 'Palanquin', sans-serif;
-  font-weight: 600;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
   color: white;
   padding-bottom: 1%;
-  line-height: 1.35;
 }
 
 .sectiontitle {
-  font-family: 'Palanquin', sans-serif;
-  font-weight: 700;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
   color: white;
-  padding-top: 2%; 
   padding-bottom: 0.5%;
 }
 
@@ -98,7 +99,7 @@ body {
 }
 
 .cardwhite{
-  background-color: #FFFFFF;
+  background-color: #ececec;
   color: #242424 !important;
   transition: 250ms ease-in;
   margin-bottom: 1rem;
@@ -111,22 +112,23 @@ body {
 } */
 
 .cardtitle {
-  font-family: 'Palanquin', sans-serif;
-  font-weight: 700;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
   margin-bottom: 2%;
   margin-top: 2%;
 }
 
 .cardsub {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
-  font-size: 13px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 
 }
 
 .cardbody {
-  font-family: 'Palanquin', sans-serif;
-  font-weight: 600;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
   font-size: 15px;
   margin-bottom: 1rem;
 }
@@ -160,7 +162,7 @@ Button w/ Animation
   border-color: white;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
-  font-family: 'Palanquin', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   font-size: 15px;
   box-shadow: none;
@@ -179,7 +181,7 @@ Button w/ Animation
   border-color: #1f2022;
   margin-right: 0.5em;
   margin-bottom: 0.5em;
-  font-family: 'Palanquin', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   font-size: 15px;
   box-shadow: none;
@@ -200,11 +202,11 @@ Button w/ Animation
   }
 
   .bio {
-    font-size: 15px;
+    font-size: 16px;
   }
 
-  .nameheader {
-    font-size: 28px;
+  .nameHeader {
+    font-size: 24px;
   }
 
 }
@@ -220,8 +222,8 @@ Button w/ Animation
     font-size: 18px;
   }
 
-  .nameheader {
-    font-size: 50px;
+  .nameHeader {
+    font-size: 28px;
   }
 
 }
@@ -234,11 +236,11 @@ Button w/ Animation
   }
 
   .bio {
-    font-size: 18px;
+    font-size: 22px;
   }
 
-  .nameheader {
-    font-size: 50px;
+  .nameHeader {
+    font-size: 36px;
   }
 
 }
