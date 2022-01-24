@@ -3,7 +3,7 @@ body {
 }
 
 .main {
-  padding-top: 3%;
+  padding-top: 2%;
   padding-bottom: 3%;
   animation-delay: 250ms;
 }
@@ -26,10 +26,9 @@ body {
   color: white;
 }
 
-.nameHeader {
+.header {
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
-  font-size: 36px;
   color: white;
   line-height: 1.5;
 }
@@ -170,8 +169,8 @@ Button w/ Animation
 
 .btn-custom:hover{
   color: white !important;
-  background-color: #1f2022;
-  border-color: #1f2022;
+  background-color: #363636;
+  border-color: #363636;
   box-shadow: none;
 }
 
@@ -205,8 +204,12 @@ Button w/ Animation
     font-size: 16px;
   }
 
-  .nameHeader {
-    font-size: 24px;
+  .headerMd {
+    font-size: 20px;
+  }
+
+  .headerLg {
+    font-size: 32px;
   }
 
 }
@@ -219,11 +222,15 @@ Button w/ Animation
   }
 
   .bio {
-    font-size: 18px;
+    font-size: 16px;
   }
 
-  .nameHeader {
-    font-size: 28px;
+  .headerMd {
+    font-size: 26px;
+  }
+
+  .headerLg {
+    font-size: 42px;
   }
 
 }
@@ -236,11 +243,15 @@ Button w/ Animation
   }
 
   .bio {
-    font-size: 22px;
+    font-size: 20px;
   }
 
-  .nameHeader {
-    font-size: 36px;
+  .headerMd {
+    font-size: 32px;
+  }
+
+  .headerLg {
+    font-size: 52px;
   }
 
 }
