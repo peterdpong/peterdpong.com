@@ -23,6 +23,7 @@ body {
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
+  text-align: center;
   color: white;
 }
 
@@ -121,7 +122,7 @@ body {
 .cardsub {
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
 
 }
 
@@ -209,7 +210,7 @@ Button w/ Animation
   }
 
   .headerLg {
-    font-size: 32px;
+    font-size: 24px;
   }
 
 }
@@ -230,7 +231,7 @@ Button w/ Animation
   }
 
   .headerLg {
-    font-size: 42px;
+    font-size: 34px;
   }
 
 }
@@ -251,7 +252,7 @@ Button w/ Animation
   }
 
   .headerLg {
-    font-size: 52px;
+    font-size: 44px;
   }
 
 }
