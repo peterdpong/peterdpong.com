@@ -91,9 +91,23 @@ body {
   margin-bottom: 1rem;
 }
 
+.carddarkgreen{
+  background-color: #225943;
+  color: white !important;
+  transition: 250ms ease-in;
+  margin-bottom: 1rem;
+}
+
 .cardlightgreen{
   background-color: #70EE9C;
   color: black !important;
+  transition: 250ms ease-in;
+  margin-bottom: 1rem;
+}
+
+.cardburgundy{
+  background-color: #61192C;
+  color: white !important;
   transition: 250ms ease-in;
   margin-bottom: 1rem;
 }
