@@ -105,8 +105,8 @@ body {
   margin-bottom: 1rem;
 }
 
-.cardburgundy{
-  background-color: #61192C;
+.cardstudydesk{
+  background-color: #0057FF;
   color: white !important;
   transition: 250ms ease-in;
   margin-bottom: 1rem;
@@ -136,8 +136,6 @@ body {
 .cardsub {
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
-  font-size: 16px;
-
 }
 
 .cardbody {
@@ -209,7 +207,7 @@ Button w/ Animation
 }
 
 /* Small Screens */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .main, .projects, .experiences, .fixedName {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
@@ -227,10 +225,14 @@ Button w/ Animation
     font-size: 24px;
   }
 
+  .cardsub {
+    font-size: 12px;
+  }
+
 }
 
 /* Medium Screens */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   .main, .projects, .experiences, .fixedName {
     margin-left: 5rem;
     margin-right: 5rem;
@@ -248,10 +250,14 @@ Button w/ Animation
     font-size: 34px;
   }
 
+  .cardsub {
+    font-size: 12px;
+  }
+
 }
 
 /* Large Screens */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1200px) {
   .main, .projects, .experiences, .fixedName {
     margin-left: 10rem;
     margin-right: 10rem;
@@ -267,6 +273,10 @@ Button w/ Animation
 
   .headerLg {
     font-size: 44px;
+  }
+
+  .cardsub {
+    font-size: 16px;
   }
 
 }
