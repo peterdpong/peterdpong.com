@@ -96,6 +96,11 @@ a:hover {
   padding: 6px;
 }
 
+.nav-arrow {
+  height: 16px;
+  width: 16px;
+}
+
 .pill-container {
   display: flex;
   gap: 8px;
