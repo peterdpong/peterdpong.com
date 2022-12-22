@@ -1,209 +1,86 @@
 body {
-  background-color: #1f2022;
+  background-color: #161616;
 }
 
-.main {
-  padding-top: 2%;
-  padding-bottom: 3%;
-  animation-delay: 250ms;
-}
-
-.experiences {
-  animation-delay: 900ms;
-  margin-bottom: 1%;
-}
-
-.projects {
-  animation-delay: 900ms;
-  margin-bottom: 1%;
-}
-
-.fixedName {
-  margin-top: 15px;
+a {
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  text-align: center;
-  color: white;
+  font-size: 16px;
+  color: #e5e5e5;
+  text-decoration-color: #707070;
+  text-decoration-thickness: 2px;
+  transition: text-decoration-color 0.25s ease-in;
+}
+
+a:hover {
+  text-decoration-color: #999999;
 }
 
 .header {
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
-  color: white;
+  font-size: 24px;
+  color: #e5e5e5;
   line-height: 1.5;
 }
 
-.bio {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  color: white;
-  padding-bottom: 1%;
+.container {
+  width: 100%;
+  margin: 0 auto;
+  flex: 1;
+  flex-direction: column;
+  max-width: 650px;
 }
 
-.sectiontitle {
+.main-container {
+  margin: 5% auto;
+}
+
+.about {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #e5e5e5;
+}
+
+.section {
+
+}
+
+.section-title {
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
-  color: white;
+  color: #aaaaaa;
   padding-bottom: 0.5%;
 }
 
-.carddark {
-  background-color: #242424;
-  color: white !important;
-  transition: 250ms ease-in;
-  margin-bottom: 1rem;
+.footer {
+  border-top: 2px solid #2b2b2b;
+  padding: 4px 0; 
 }
 
-.cardyellow{
-  background-color: #FFD571;
-  color: #1f2022 !important;
-  transition: 250ms ease-in;
-  margin-bottom: 1rem;
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.cardorange{
-  background-color: #ff5c0b;
-  color: white !important;
-  transition: 250ms ease-in;
-  margin-bottom: 1rem;
-}
-
-.cardblue{
-  background-color: #354dd1;
-  color: white !important;
-  transition: 250ms ease-in;
-  margin-bottom: 1rem;
-}
-
-.cardchecked{
-  background-color: #2d323f;
-  color: white !important;
-  transition: 250ms ease-in;
-  margin-bottom: 1rem;
-}
-
-.cardgreen{
-  background-color: #17B978;
-  color: white !important;
-  transition: 250ms ease-in;
-  margin-bottom: 1rem;
-}
-
-.carddarkgreen{
-  background-color: #225943;
-  color: white !important;
-  transition: 250ms ease-in;
-  margin-bottom: 1rem;
-}
-
-.cardlightgreen{
-  background-color: #70EE9C;
-  color: black !important;
-  transition: 250ms ease-in;
-  margin-bottom: 1rem;
-}
-
-.cardstudydesk{
-  background-color: #0057FF;
-  color: white !important;
-  transition: 250ms ease-in;
-  margin-bottom: 1rem;
-}
-
-.cardwhite{
-  background-color: #ececec;
-  color: #242424 !important;
-  transition: 250ms ease-in;
-  margin-bottom: 1rem;
-}
-
-
-/* .carddark:hover {
-  box-shadow: 2px 2px 0px 1px rgba(247, 208, 89, 1);
-  transform: translate(-5px, -5px);
-} */
-
-.cardtitle {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 500;
-  font-size: 24px;
-  margin-bottom: 2%;
-  margin-top: 2%;
-}
-
-.cardsub {
+.footer-text {
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
+  font-size: 16px;
+  color: #e5e5e5;
+  margin: 8px 0px;
 }
 
-.cardbody {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  margin-bottom: 1rem;
+.footer-socials {
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
 
-
-/* 
-Button w/ Animation
-.btn-custom {
-  color: #fff !important; 
-  background-color: #03a9f4;
-  border-color: #03a9f4;
-  transition: 250ms ease-in;
-  margin-right: 0.5em;
-  margin-bottom: 0.5em;
-  font-family: 'Palanquin Dark', sans-serif;
-  font-weight: 400;
-}
-
-.btn-custom:hover {
-  color: #1f2022 !important;
-  background-color: white;
-  border-color: white;
-  box-shadow: 2px 2px 0px 1px #03a9f4;
-  transform: translate(-5px, -5px);
-} */
-
-
-.btn-custom {
-  color: #1f2022 !important;
-  background-color: white;
-  border-color: white;
-  margin-right: 0.5em;
-  margin-bottom: 0.5em;
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  box-shadow: none;
-}
-
-.btn-custom:hover{
-  color: white !important;
-  background-color: #363636;
-  border-color: #363636;
-  box-shadow: none;
-}
-
-.btn-custom-inv {
-  color: white !important;
-  background-color: #1f2022;
-  border-color: #1f2022;
-  margin-right: 0.5em;
-  margin-bottom: 0.5em;
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  box-shadow: none;
-}
-
-.btn-custom-inv:hover{
-  color: #1f2022 !important;
-  background-color: white;
-  border-color: white;
-  box-shadow: none;
+.faded {
+  color: #8d8d8d;
 }
 
 /* Small Screens */

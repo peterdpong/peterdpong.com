@@ -8,9 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
 
-    <!--Animate.css Library-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-
     <!--Personal Stylesheet-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="res/favicon.png" type="image/x-icon">
@@ -19,221 +16,45 @@
     <title>Peter Damrongpiriyapong</title>
   </head>
   <body>
-    <div>
-      <h6 class="fixedName">Soraphoj (Peter) Damrongpiriyapong</h6>
-    </div>
-    <div class="main animated fadeInUp">
-          <h3 class="header headerLg">Heya, I'm Peter! <br>
-          </h3>
-          <h3 class="header headerMd"> 
-            Incoming New Grad SWE at Figma!
-          </h3>
-          <h3 class="bio">
-            I am currently studying Computer Engineering at the University of Toronto. <br>
-            Previously I interned at <u>Figma</u> working on FigJam and at <u>Prodigy</u> working on Game Tools. <br> <br>
-            Experience working with C++/C, React, TypeScript/JavaScript, Electron, NextJS, Flutter, and Kotlin.<br>
-            Interested in Computer Graphics, Game Development, Mobile/Web Development, and FinTech.
-          </h3>
+    <div class="container main-container">
+      <h1 class="header">Peter Damrongpiriyapong</h1>
+      <p class="about">Hello. I am studying Computer Engineering at the University of Toronto and an incoming Software Engineer at <a href="https://www.figma.com/">Figma</a>. <br> I enjoy building software that is helpful and useful.</p>
+      <p class="about">Previously, I was an intern at Figma building <a href="https://www.figma.com/figjam/">FigJam</a> and at <a href="https://www.prodigygame.com/">Prodigy</a> working on an in-house game/prefab editor.</p>
 
-          <div class="icons">
-            <a class="btn btn-custom" href="/res/resume/Resume.pdf" role="button" aria-expanded="false" aria-controls="collapseExample">Resume</a>
-            <a class="btn btn-custom" href="https://www.github.com/peterdpong" role="button" aria-expanded="false" aria-controls="collapseExample">Github</a>
-            <a class="btn btn-custom" href="https://www.linkedin.com/in/soraphoj" role="button" aria-expanded="false" aria-controls="collapseExample">Linkedin</a>
-            <a class="btn btn-custom" href="https://www.twitter.com/peterdpong" role="button" aria-expanded="false" aria-controls="collapseExample">Twitter</a>
-            <a class="btn btn-custom" href="mailto:peterdpong@gmail.com" role="button" aria-expanded="false" aria-controls="collapseExample">Email</a>
-          </div>
-    </div>
+      <div class="section">
+        <h3 class="section-title">Experience</h3>
+        
+      </div>
 
-    <div class="experiences animated fadeInUp">
-      <h3 class="sectiontitle">Experiences</h3>
-        <div class="row">
+      <div class="section">
+        <h3 class="section-title">Projects</h3>
 
-          <div class="col-sm-6">
-            <div class="card carddark">
-              <div class="card-body">
-                <div style="display:flex; flex-direction:row; justify-content: space-between">
-                  <p class="cardsub">May 2022 - August 2022</p>
-                  <p class="cardsub">San Francisco, CA</p>
-                </div>
-                
-                <img src="./res/img/figmalogo.svg" width="25" height="25">
-                <h4 class="cardtitle">Software Engineering Intern @ Figma</h4>
-                
-                <p class="cardsub">C++, TypeScript, React</p>
-                <p class="cardbody">
-                  Worked on the FigJam Team developing an online whiteboard where teams collaborate. <br>
-                </p>
-                <!-- <a class="btn btn-custom" href="#collapse4" data-toggle="collapse" role="button">Learn More</a> -->
-                <a class="btn btn-custom" href="https://www.figma.com/about/" role="button">Website</a>
-                <!-- <div class="collapse" id="collapse4">
-                  <p class="cardbody">
-                    • Designed a prefab dependency graph allowing developer to visualize relationships between prefabs. <br>
-                    • Developed a system to correctly parse and resolve game object signals/events when templated reducing the need for developers resolve manually.<br>
-                    • Created signal visualization tool mapping out all signal connections between Game Objects and Components in a prefab.
-                  </p>
-                </div> -->
-              </div>
-            </div>
-            <div class="card" style="background-color: #0a214f; color: white; margin-bottom: 1rem;">
-              <div class="card-body">
-                <p class="cardsub">January 2022 - April 2022</p>
-                <h4 class="cardtitle">Teaching Assistant @ University of Toronto</h4>
-                <p class="cardbody">
-                  ECE297: Software Design and Communication <br>
-                </p>
-              </div>
-            </div>
-            
-          </div>
-
-          <div class="col-sm-6">
-            <div class="card cardorange">
-              <div class="card-body">
-                <div style="display:flex; flex-direction:row; justify-content: space-between">
-                  <p class="cardsub">May 2021 - August 2021</p>
-                  <p class="cardsub">Toronto, ON (Remote)</p>
-                </div>
-                <img src="./res/img/prodigylogo.png" width="30" height="30">
-                <h4 class="cardtitle">Game Developer Intern @ Prodigy</h4>
-                <p class="cardsub">React, Electron, TypeScript, Redux</p>
-                <p class="cardbody">
-                  Worked on the Game Platform team helping develop the in-house game/prefab editor. <br>
-                </p>
-                <a class="btn btn-custom" href="#collapse3" data-toggle="collapse" role="button">Learn More</a>
-                <a class="btn btn-custom" href="https://www.prodigygame.com/main-en/" role="button">Website</a>
-                <div class="collapse" id="collapse3">
-                  <p class="cardbody">
-                    • Designed a prefab dependency graph allowing developer to visualize relationships between prefabs. <br>
-                    • Developed a system to correctly parse and resolve game object signals/events when templated reducing the need for developers resolve manually.<br>
-                    • Created signal visualization tool mapping out all signal connections between Game Objects and Components in a prefab.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div> 
-        </div>
-    </div> 
-
-    <div class="projects animated fadeInUp">
-      <h3 class="sectiontitle">Current Projects</h3>
-      <div class="row">
-        <!-- Column 1 -->
-        <div class="col-sm-6">
-          <div class="card carddarkgreen">
-            <div class="card-body">
-              <h4 class="cardtitle"><bold>Monetary</bold></h4>
-              <h5 class="cardbody">
-                Money managment and tracking simplified.
-              
-              </h5>
-            </div>
-          </div>
-
-          <div class="card carddark">
-            <div class="card-body">
-              <h4 class="cardtitle"><bold>Color Swatch</bold></h4>
-              <h5 class="cardbody">
-                A Color Swatch Widget for FigJam and Figma.
-              </h5>
-              <a class="btn btn-custom" href="https://www.figma.com/community/widget/1109318554624490060/Color-Swatch" role="button">Figma Community</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card cardstudydesk">
-            <div class="card-body">
-              <h4 class="cardtitle"><bold>Studydesk</bold></h4>
-              <h5 class="cardbody">
-                The home for your studying.
-              
-              </h5>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 
-    <div class="projects animated fadeInUp">
-      <h3 class="sectiontitle">Previous Projects</h3>
-        <div class="row">
-
-          <!-- Column 1 -->
-          <div class="col-sm-6">
-            <div class="card carddark">
-              <div class="card-body">
-                <p class="cardsub">Full Stack Development</p>
-                <h4 class="cardtitle"><bold>Monocle</bold></h4>
-                <p class="cardsub">React, Flask, Firebase, and BeautifulSoup</p>
-                <h5 class="cardbody">
-                  Privacy Policies Simplified - NewHacks 2021 - 2nd Place
-                  <br>
-                  Monocle reduces privacy policies down to the most important information about the privacy of your data.
-                </h5>
-                <a class="btn btn-custom" href="https://devpost.com/software/monocole" role="button">Devpost</a>
-                <a class="btn btn-custom" href="https://github.com/Joshua-Pow/Monocle" role="button">Github</a>
-              </div>
-            </div>
-
-            <div class="card cardchecked">
-              <div class="card-body">
-                <p class="cardsub">Android Development</p>
-                <h4 class="cardtitle"><bold>Checked To-Do App</bold></h4>
-                <p class="cardsub">Kotlin</p>
-                <h5 class="cardbody">
-                  An open-source simple to-do app, available on the Google Play Store.
-                </h5>
-                <!-- <a class="btn btn-custom-inv" href="/checked/checked.html" role="button">App Website</a> -->
-                <a class="btn btn-custom-inv" href="https://play.google.com/store/apps/details?id=com.peterdpong.checked" role="button">Google Play Store</a>
-                <a class="btn btn-custom-inv" href="https://github.com/peterdpong/checked-android" role="button">Github</a>
-              </div>
-            </div>
+    <div class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <p class="footer-text">Toronto ➜ NYC</p>
+          <p class="footer-text faded">2023</p>
+          <div class="footer-socials">
+            <a href="https://twitter.com/peterdpong">
+              <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="24" viewBox="0 0 248 204">
+                <path fill="#8d8d8d" d="M221.95 51.29c.15 2.17.15 4.34.15 6.53 0 66.73-50.8 143.69-143.69 143.69v-.04c-27.44.04-54.31-7.82-77.41-22.64 3.99.48 8 .72 12.02.73 22.74.02 44.83-7.61 62.72-21.66-21.61-.41-40.56-14.5-47.18-35.07 7.57 1.46 15.37 1.16 22.8-.87-23.56-4.76-40.51-25.46-40.51-49.5v-.64c7.02 3.91 14.88 6.08 22.92 6.32C11.58 63.31 4.74 33.79 18.14 10.71c25.64 31.55 63.47 50.73 104.08 52.76-4.07-17.54 1.49-35.92 14.61-48.25 20.34-19.12 52.33-18.14 71.45 2.19 11.31-2.23 22.15-6.38 32.07-12.26-3.77 11.69-11.66 21.62-22.2 27.93 10.01-1.18 19.79-3.86 29-7.95-6.78 10.16-15.32 19.01-25.2 26.16z"/>
+              </svg>
+            </a>
+            <a href="https://www.github.com/peterdpong">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 1024 1024" fill="none">
+                <path fill="#8d8d8d" fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" transform="scale(64)"/>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/soraphoj/">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 448 512"><path fill="#8d8d8d" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+            </a>
           </div>
-
-          <!-- Column 2 -->
-          <div class="col-sm-6">
-            <div class="card cardlightgreen">
-              <div class="card-body">
-                <p class="cardsub">C++ / GTK</p>
-                <h4 class="cardtitle"><bold>Mapgineer - Mapping Program</bold></h4>
-                <h5 class="cardbody">
-                  Mapping Program based on OpenStreetMaps Data. Graphical interface built in GTK with geographical features, streets and points of interests drawn. <br><br>
-
-                  <a class="btn btn-custom-inv" href="#collapse2" data-toggle="collapse" role="button">Learn More</a>
-                  <a class="btn btn-custom-inv" href="https://photos.app.goo.gl/4XVU48jRxxvUP16V8">Photos</a>
-                  <div class="collapse" id="collapse2">
-                    <h5 class="cardtitle">What I developed</h5>
-                    <p class="cardbody">
-                      • Designed and implemented user interface including Info Card system and Route Direction system. <br>
-                      • Developed rendering of geographical features, buildings and point of interests icons. <br>
-                      • Implemented a greedy algorithm with simulated annealing to solve a map based Travelling Salesman problem with added constraints. (Ranked 6th in the class) <br>
-                      • Created a Trie data structure used to improve prefix searching times of street and points of interest names.
-                    </p>
-                  </div>
-
-                </h5>
-              </div>
-            </div>
-
-            <div class="card cardblue">
-              <div class="card-body">
-                <p class="cardsub">Game Development / C++</p>
-                <h4 class="cardtitle"><bold>BulletTime</bold></h4>
-                <h5 class="cardbody">
-                  Made at Hack The North 2020++<br>
-                  Build for the Ubisoft Hackers NEST API Challenge on the HackersNest Engine provided by Ubisoft in 36 hours.
-                  1v1 your friends in this fast-paced shooter arena where tactics and the past affect your next rounds.
-                </h5>
-                <a class="btn btn-custom" href="https://devpost.com/software/bullettime" role="button">Devpost</a>
-                <a class="btn btn-custom" href="https://github.com/pauldpong/BulletTime" role="button">Github</a>
-              </div>
-            </div>
-
-          </div> 
+          
         </div>
-        <a href="https://github.com/peterdpong?tab=repositories" class="cardsub" style="color: white;">See more.</a>
+      </div>
     </div>
-
-
-
   </body>
 </html>
