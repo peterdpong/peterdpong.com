@@ -5,7 +5,6 @@ body {
 a {
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
-  font-size: 16px;
   color: #e5e5e5;
   text-decoration-color: #707070;
   text-decoration-thickness: 2px;
@@ -19,7 +18,7 @@ a:hover {
 .header {
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 26px;
   color: #e5e5e5;
   line-height: 1.5;
 }
@@ -44,14 +43,17 @@ a:hover {
   color: #e5e5e5;
 }
 
-.section {
-
-}
-
 .section-title {
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
+  font-size: 22px;
   color: #aaaaaa;
+  margin-bottom: 12px;
+}
+
+.mini{
+  font-size: 18px;
+  margin-bottom: 4px;
 }
 
 .item {
@@ -130,6 +132,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 4px;
 }
 
 .footer-text {
@@ -150,77 +153,13 @@ a:hover {
   color: #8d8d8d;
 }
 
-/* Small Screens */
-@media only screen and (max-width: 800px) {
-  .main, .projects, .experiences, .fixedName {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
+
+@media only screen and (max-width: 700px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    flex: 1;
+    flex-direction: column;
+    max-width: 400px;
   }
-
-  .bio {
-    font-size: 16px;
-  }
-
-  .headerMd {
-    font-size: 20px;
-  }
-
-  .headerLg {
-    font-size: 24px;
-  }
-
-  .cardsub {
-    font-size: 12px;
-  }
-
-}
-
-/* Medium Screens */
-@media only screen and (min-width: 800px) {
-  .main, .projects, .experiences, .fixedName {
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
-  .bio {
-    font-size: 16px;
-  }
-
-  .headerMd {
-    font-size: 26px;
-  }
-
-  .headerLg {
-    font-size: 34px;
-  }
-
-  .cardsub {
-    font-size: 12px;
-  }
-
-}
-
-/* Large Screens */
-@media only screen and (min-width: 1200px) {
-  .main, .projects, .experiences, .fixedName {
-    margin-left: 10rem;
-    margin-right: 10rem;
-  }
-
-  .bio {
-    font-size: 20px;
-  }
-
-  .headerMd {
-    font-size: 32px;
-  }
-
-  .headerLg {
-    font-size: 44px;
-  }
-
-  .cardsub {
-    font-size: 16px;
-  }
-
 }
