@@ -1,0 +1,22 @@
+[animate-in] {
+  --delay-num: 0;
+  --delay: 85ms;
+  --start: 0ms;
+
+  animation-duration: 0.65s;
+  animation-timing-function: ease;
+  animation-delay: calc(var(--delay-num) * var(--delay) + var(--start));
+  animation-name: fadeInUp;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
