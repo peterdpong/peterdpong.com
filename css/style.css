@@ -33,7 +33,8 @@ a:hover {
 }
 
 .main-container {
-  margin: 5% auto;
+  margin: 4% auto;
+  padding: 0px 5px;
 }
 
 .about {
@@ -51,7 +52,73 @@ a:hover {
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   color: #aaaaaa;
-  padding-bottom: 0.5%;
+}
+
+.item {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.item-content {
+  height: 100%;
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+}
+
+.row-spaced {
+  display: flex;
+  gap: 12px;
+}
+
+.item-title {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #e5e5e5;
+}
+
+.item-subtitle {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #aaaaaa;
+}
+
+.item .icon img{
+  height: 32px;
+  width: 32px;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+.pill-container {
+  display: flex;
+  gap: 8px;
+}
+
+.pill {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #3a3a3a;
+  padding: 2px 6px;
+  border-radius: 5px;
+  color: #aaaaaa;
+}
+
+.figma {
+  background-color: #1E1E1E;
+}
+
+.prodigy {
+  background-color: #723212;
+}
+
+.uoft {
+  background-color: #00234b;
 }
 
 .footer {
