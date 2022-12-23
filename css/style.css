@@ -43,17 +43,27 @@ a:hover {
   color: #e5e5e5;
 }
 
+.section {
+  margin-bottom: 8px;
+}
+
 .section-title {
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   font-size: 22px;
   color: #aaaaaa;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
 
 .mini{
   font-size: 18px;
   margin-bottom: 4px;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
 }
 
 .item {
@@ -73,6 +83,7 @@ a:hover {
 .row-spaced {
   display: flex;
   gap: 12px;
+  flex-wrap: wrap;
 }
 
 .item-title {
@@ -183,6 +194,11 @@ a:hover {
     margin: 0 auto;
     flex: 1;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 360px;
+  }
+
+  .about {
+    font-size: 14px;
   }
 }
+
