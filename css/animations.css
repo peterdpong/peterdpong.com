@@ -1,6 +1,6 @@
 [animate-in] {
   --delay-num: 0;
-  --delay: 85ms;
+  --delay: 80ms;
   --start: 0ms;
 
   animation-duration: 0.65s;
@@ -13,10 +13,18 @@
 @keyframes fadeInUp {
   0% {
     opacity: 0;
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
     transform: translateY(5px);
   }
   to {
     opacity: 1;
-    transform: none;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
   }
 }
