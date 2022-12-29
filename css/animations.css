@@ -1,6 +1,6 @@
 [animate-in] {
   --delay-num: 0;
-  --delay: 80ms;
+  --delay: 100ms;
   --start: 0ms;
 
   animation-duration: 0.65s;
