@@ -1,8 +1,8 @@
 body {
   background-color: #161616;
-  display:flex;
-  flex-direction:column;
-  min-height:100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 a {
@@ -10,12 +10,12 @@ a {
   font-weight: 400;
   color: #e5e5e5;
   text-decoration-color: #707070;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 1.75px;
   transition: text-decoration-color 0.25s ease-in;
 }
 
 a:hover {
-  text-decoration-color: #999999;
+  text-decoration-color: #a0a0a0;
 }
 
 .header {
@@ -53,9 +53,9 @@ a:hover {
 .section-title {
   font-family: 'DM Sans', sans-serif;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 20px;
   color: #aaaaaa;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 .mini{
