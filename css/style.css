@@ -24,6 +24,7 @@ a:hover {
   font-size: 26px;
   color: #e5e5e5;
   line-height: 1.5;
+  margin-bottom: 0;
 }
 
 .container {
@@ -61,6 +62,53 @@ a:hover {
 .mini{
   font-size: 18px;
   margin-bottom: 4px;
+}
+
+
+@keyframes gradient-pan {
+  from {
+    background-position: 0% center;
+  }
+  
+  to {
+    background-position: -200% center;
+  }
+}
+
+.playground-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.playground-box {
+  display: flex;
+  height: 150px;
+  width: 225px;
+  background-color: #222222;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #3d3d3d;
+}
+
+.playground-text {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 10px;
+
+  background: linear-gradient(
+    to right,
+    #919BFF,
+    #318CF2,
+    #5460F9,
+    #919BFF
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-pan 2s linear infinite;
 }
 
 .grid-item {
