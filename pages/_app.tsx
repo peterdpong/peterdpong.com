@@ -1,6 +1,17 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import type { AppProps } from "next/app";
+import { styled } from "@stitches/react";
+import { globalStyles } from "@/stitches.config";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  globalStyles();
+  return (
+    <Wrapper>
+      <Component {...pageProps} />
+    </Wrapper>
+  );
 }
+
+const Wrapper = styled("main", {
+  backgroundColor: "#161616",
+  minHeight: "100vh",
+});
