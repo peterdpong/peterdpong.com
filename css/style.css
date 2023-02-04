@@ -183,7 +183,7 @@ a:hover {
 }
 
 .prodigy {
-  background-color: #723212;
+  background-color: #ebebeb;
 }
 
 .uoft {
@@ -251,5 +251,19 @@ a:hover {
   .about {
     font-size: 14px;
   }
+}
+
+.imgBackground {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+  transform: scale(1.25);
+  transition: all 0.5s ease-in-out;
+}
+
+.imgBackground:hover {
+  opacity: 0.75;
+  filter: blur(5px);
 }
 
