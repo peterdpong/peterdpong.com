@@ -1,5 +1,6 @@
 import { styled } from "@/stitches.config";
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Index() {
   return (
@@ -75,19 +76,39 @@ export default function Index() {
           <Row>
             <Link href="https://twitter.com/peterdpong">
               Twitter
-              <img src="img/nav-arrow.svg" alt="navigation-arrow" />
+              <Image
+                src="img/nav-arrow.svg"
+                alt="navigation-arrow"
+                width={12}
+                height={12}
+              />
             </Link>
             <Link href="https://www.github.com/peterdpong">
               GitHub
-              <img src="img/nav-arrow.svg" alt="navigation-arrow" />
+              <Image
+                src="img/nav-arrow.svg"
+                alt="navigation-arrow"
+                width={12}
+                height={12}
+              />
             </Link>
             <Link href="https://www.figma.com/@petah">
               Figma
-              <img src="img/nav-arrow.svg" alt="navigation-arrow" />
+              <Image
+                src="img/nav-arrow.svg"
+                alt="navigation-arrow"
+                width={12}
+                height={12}
+              />
             </Link>
             <Link href="https://www.linkedin.com/in/peterdpong/">
               Linkedin
-              <img src="img/nav-arrow.svg" alt="navigation-arrow" />
+              <Image
+                src="img/nav-arrow.svg"
+                alt="navigation-arrow"
+                width={12}
+                height={12}
+              />
             </Link>
           </Row>
         </Section>
@@ -134,11 +155,6 @@ const Link = styled("a", {
   transition: "text-decoration-color 0.1s ease-in-out",
   "&:hover": {
     textDecorationColor: "$gray12",
-  },
-
-  "& img": {
-    height: "0.85rem",
-    width: "0.85rem",
   },
 });
 
