@@ -54,15 +54,15 @@ export default function Index() {
         </Section>
         <Section>
           <Description>
-            I'm an engineer interested in building helpful, delightful, and
-            useful software. I'm an engineer interested in building helpful,
-            delightful, and useful software. Areas I'm interested in are
-            computer graphics, mobile/web development, and software for personal
-            finance.
+            I&apos;m an engineer interested in building helpful, delightful, and
+            useful software. I&apos;m an engineer interested in building
+            helpful, delightful, and useful software. Areas I&apos;m interested
+            in are computer graphics, mobile/web development, and software for
+            personal finance.
           </Description>
           <Description>
-            Currently, I'm Computer Engineering at the University of Toronto and
-            an incoming Software Engineer at{" "}
+            Currently, I&apos;m Computer Engineering at the University of
+            Toronto and an incoming Software Engineer at{" "}
             <Link href="https://www.figma.com/">Figma</Link>.
           </Description>
           <Description>
