@@ -13,7 +13,7 @@ export const baseTheme = {
   },
 };
 
-export const { styled } = createStitches({
+export const { styled, getCssText } = createStitches({
   theme: baseTheme,
 });
 
