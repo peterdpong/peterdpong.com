@@ -22,4 +22,8 @@ export const globalStyles = globalCss({
     margin: 0,
     padding: 0,
   },
+  ":root": {
+    "--fg": "#000",
+    "--bg": "#fff",
+  },
 });
