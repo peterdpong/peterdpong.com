@@ -13,7 +13,7 @@ export const baseTheme = {
   },
 };
 
-export const { styled, getCssText, globalCss } = createStitches({
+export const { styled, getCssText, globalCss, keyframes } = createStitches({
   theme: baseTheme,
 });
 
