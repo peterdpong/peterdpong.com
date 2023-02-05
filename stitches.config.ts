@@ -1,5 +1,5 @@
 import { grayDark, blueDark, redDark, greenDark } from "@radix-ui/colors";
-import { createStitches, globalCss } from "@stitches/react";
+import { createStitches } from "@stitches/react";
 
 export const baseTheme = {
   colors: {
@@ -13,7 +13,7 @@ export const baseTheme = {
   },
 };
 
-export const { styled, getCssText } = createStitches({
+export const { styled, getCssText, globalCss } = createStitches({
   theme: baseTheme,
 });
 
@@ -22,8 +22,7 @@ export const globalStyles = globalCss({
     margin: 0,
     padding: 0,
   },
-  ":root": {
-    "--fg": "#000",
-    "--bg": "#fff",
+  body: {
+    background: "#161616",
   },
 });
