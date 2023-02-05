@@ -59,8 +59,7 @@ export default function Index() {
         <Section>
           <FadeInWrapper css={{ "--delay-num": 2 }}>
             <Description>
-              I&apos;m an engineer interested in building helpful, delightful,
-              and useful software. I&apos;m an engineer interested in building
+              I&apos;m an engineer interested in building
               helpful, delightful, and useful software. Areas I&apos;m
               interested in are computer graphics, mobile/web development, and
               software for personal finance.
