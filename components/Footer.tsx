@@ -68,7 +68,7 @@ const FooterContainer = styled("div", {
   display: "flex",
   justifyContent: "space-between",
   alignItems: "center",
-  margin: "0px 4px",
+  margin: "0px 0.5rem",
 });
 
 const FooterText = styled("div", {
