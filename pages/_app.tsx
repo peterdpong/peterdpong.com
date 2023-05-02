@@ -2,18 +2,13 @@ import type { AppProps } from "next/app";
 import { styled } from "@stitches/react";
 import { globalStyles } from "@/stitches.config";
 import { ThemeProvider } from "next-themes";
-import { DM_Sans } from "@next/font/google";
-
-const DMSans = DM_Sans({
-  subsets: ["latin"],
-  weight: ["400", "500"],
-});
+import "@fontsource/dm-sans";
 
 export default function App({ Component, pageProps }: AppProps) {
   globalStyles();
   return (
     <ThemeProvider disableTransitionOnChange defaultTheme="dark">
-      <Wrapper className={DMSans.className}>
+      <Wrapper>
         <Component {...pageProps} />
       </Wrapper>
     </ThemeProvider>
