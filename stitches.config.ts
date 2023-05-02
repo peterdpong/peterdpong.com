@@ -25,4 +25,17 @@ export const globalStyles = globalCss({
   body: {
     background: "#161616",
   },
+  "::-webkit-scrollbar": {
+    width: "8px",
+  },
+  "::-webkit-scrollbar-track": {
+    background: "#161616",
+  },
+  "::-webkit-scrollbar-thumb": {
+    background: "#2b2b2b",
+    borderRadius: "12px",
+  },
+  "::-webkit-scrollbar-thumb:hover": {
+    background: "#3b3b3b",
+  },
 });
