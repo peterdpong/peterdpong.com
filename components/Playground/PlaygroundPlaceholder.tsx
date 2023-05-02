@@ -37,7 +37,7 @@ const Box = styled("div", {
 });
 
 const Text = styled("div", {
-  fontFamily: "$sans",
+  fontFamily: "var(--dm-sans)",
   fontWeight: 500,
   fontSize: "1.1rem",
   margin: "10px",

@@ -8,9 +8,6 @@ export const baseTheme = {
     ...redDark,
     ...greenDark,
   },
-  fonts: {
-    sans: "DM Sans, sans-serif",
-  },
 };
 
 export const { styled, getCssText, globalCss, keyframes } = createStitches({

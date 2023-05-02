@@ -72,7 +72,7 @@ const FooterContainer = styled("div", {
 });
 
 const FooterText = styled("div", {
-  fontFamily: "$sans",
+  fontFamily: "var(--dm-sans)",
   fontWeight: 400,
   fontSize: "1rem",
   color: "$gray11",

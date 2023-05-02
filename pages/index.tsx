@@ -392,7 +392,7 @@ const IconHoverEffect = styled("img", {
 });
 
 const Pill = styled("div", {
-  fontFamily: "$sans",
+  fontFamily: "var(--dm-sans)",
   fontWeight: 400,
   fontSize: "0.9rem",
   color: "$gray11",

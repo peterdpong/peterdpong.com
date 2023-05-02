@@ -1,7 +1,7 @@
 import { styled } from "@/stitches.config";
 
 export const Link = styled("a", {
-  fontFamily: "$sans",
+  fontFamily: "var(--dm-sans)",
   fontWeight: 400,
   fontSize: "1rem",
   color: "$gray12",

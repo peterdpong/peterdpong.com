@@ -1,21 +1,21 @@
 import { styled } from "@/stitches.config";
 
 const Title = styled("h1", {
-  fontFamily: "$sans",
+  fontFamily: "var(--dm-sans)",
   fontWeight: 500,
   fontSize: "1.625rem",
   color: "$gray12",
 });
 
 const SectionTitle = styled("h1", {
-  fontFamily: "$sans",
+  fontFamily: "var(--dm-sans)",
   fontWeight: 500,
   fontSize: "1.25rem",
   color: "$gray11",
 });
 
 const Description = styled("p", {
-  fontFamily: "$sans",
+  fontFamily: "var(--dm-sans)",
   fontWeight: 400,
   fontSize: "1rem",
   color: "$gray12",
@@ -23,7 +23,7 @@ const Description = styled("p", {
 });
 
 const ItemTitle = styled("div", {
-  fontFamily: "$sans",
+  fontFamily: "var(--dm-sans)",
   fontWeight: 400,
   fontSize: "1.15rem",
   color: "$gray12",
@@ -31,7 +31,7 @@ const ItemTitle = styled("div", {
 });
 
 const ItemSubtitle = styled("div", {
-  fontFamily: "$sans",
+  fontFamily: "var(--dm-sans)",
   fontWeight: 400,
   fontSize: "1rem",
   color: "$gray11",
