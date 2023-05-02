@@ -3,12 +3,7 @@ import { Footer } from "@/components/Footer";
 import { Link } from "@/components/Link";
 import { Row } from "@/components/Row";
 import { Section } from "@/components/Section";
-import {
-  Title,
-  Description,
-  SectionTitle,
-  ItemSubtitle,
-} from "@/components/Typography";
+import { Title, Description, SectionTitle } from "@/components/Typography";
 import { ContentWrapper, PageWrapper } from "@/components/Wrappers";
 import Head from "next/head";
 import Image from "next/image";
