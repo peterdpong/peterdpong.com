@@ -7,6 +7,7 @@ import { DM_Sans } from "@next/font/google";
 const DMSans = DM_Sans({
   subsets: ["latin"],
   weight: ["400", "500"],
+  display: "swap",
 });
 
 export default function App({ Component, pageProps }: AppProps) {
