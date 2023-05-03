@@ -13,7 +13,7 @@ export default function PlaygroundIndex() {
   return (
     <>
       <Head>
-        <meta http-equiv="Content-Language" content="en" />
+        <meta httpEquiv="Content-Language" content="en" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -28,7 +28,7 @@ export default function PlaygroundIndex() {
         />
         <meta
           property="twitter:description"
-          content="Computer Engineering at the University of Toronto and an incoming Software Engineer at Figma."
+          content="Peter Damrongpiriyapong - Fun experimental playground of UI elements."
         />
         <meta property="twitter:url" content="https://peterdpong.me" />
 
@@ -38,12 +38,16 @@ export default function PlaygroundIndex() {
           content="https://peterdpong.me/img/preview-img.png"
         />
         <meta
+          name="description"
+          content="Peter Damrongpiriyapong - Fun experimental playground of UI elements."
+        />
+        <meta
           property="description"
-          content="Fun experimental playground of UI elements."
+          content="Peter Damrongpiriyapong - Fun experimental playground of UI elements."
         />
         <meta
           property="og:description"
-          content="Fun experimental playground of UI elements."
+          content="Peter Damrongpiriyapong - Fun experimental playground of UI elements."
         />
         <meta property="og:url" content="https://peterdpong.me" />
 

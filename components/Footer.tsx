@@ -8,7 +8,7 @@ export const Footer = () => {
           <FooterText>Toronto</FooterText>
           <FooterText>2023</FooterText>
           <FooterSocials>
-            <a href="https://twitter.com/peterdpong">
+            <a href="https://twitter.com/peterdpong" aria-label="Twitter Logo">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -20,7 +20,10 @@ export const Footer = () => {
                 />
               </svg>
             </a>
-            <a href="https://www.github.com/peterdpong">
+            <a
+              href="https://www.github.com/peterdpong"
+              aria-label="GitHub Logo"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -36,7 +39,10 @@ export const Footer = () => {
                 />
               </svg>
             </a>
-            <a href="https://www.linkedin.com/in/peterdpong/">
+            <a
+              href="https://www.linkedin.com/in/peterdpong/"
+              aria-label="Linkedin Logo"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

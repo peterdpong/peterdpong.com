@@ -19,7 +19,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <meta http-equiv="Content-Language" content="en" />
+        <meta httpEquiv="Content-Language" content="en" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -34,7 +34,7 @@ export default function Index() {
         />
         <meta
           property="twitter:description"
-          content="Computer Engineering at the University of Toronto and an incoming Software Engineer at Figma."
+          content="Peter Damrongpiriyapong - Computer Engineering at the University of Toronto and an incoming Software Engineer at Figma."
         />
         <meta property="twitter:url" content="https://peterdpong.me" />
 
@@ -44,12 +44,16 @@ export default function Index() {
           content="https://peterdpong.me/img/preview-img.png"
         />
         <meta
+          name="description"
+          content="Peter Damrongpiriyapong - Computer Engineering at the University of Toronto and an incoming Software Engineer at Figma."
+        ></meta>
+        <meta
           property="description"
-          content="Computer Engineering at the University of Toronto and an incoming Software Engineer at Figma."
+          content="Peter Damrongpiriyapong - Computer Engineering at the University of Toronto and an incoming Software Engineer at Figma."
         />
         <meta
           property="og:description"
-          content="Computer Engineering at the University of Toronto and an incoming Software Engineer at Figma."
+          content="Peter Damrongpiriyapong - Computer Engineering at the University of Toronto and an incoming Software Engineer at Figma."
         />
         <meta property="og:url" content="https://peterdpong.me" />
 
@@ -169,12 +173,16 @@ export default function Index() {
             <FadeInWrapper css={{ "--delay-num": 7 }}>
               <Item>
                 <div>
-                  <a>
+                  <a href="https://www.figma.com/">
                     <Icon
                       style={{ backgroundColor: "#1e1e1e" }}
                       src="./img/figma.svg"
+                      alt="Figma Logo"
                     />
-                    <IconHoverEffect src="./img/figma.svg" />
+                    <IconHoverEffect
+                      src="./img/figma.svg"
+                      alt="Faded and Blurred Figma Logo"
+                    />
                   </a>
                 </div>
                 <ItemContent>
@@ -217,12 +225,16 @@ export default function Index() {
             <FadeInWrapper css={{ "--delay-num": 8 }}>
               <Item>
                 <div>
-                  <a>
+                  <a href="https://www.utoronto.ca/">
                     <Icon
                       style={{ backgroundColor: "#00234b" }}
                       src="./img/uoft.svg"
+                      alt="University of Toronto Logo"
                     />
-                    <IconHoverEffect src="./img/uoft.svg" />
+                    <IconHoverEffect
+                      src="./img/uoft.svg"
+                      alt="Faded and Blurred University of Toronto Logo"
+                    />
                   </a>
                 </div>
                 <ItemContent>
@@ -240,12 +252,16 @@ export default function Index() {
             <FadeInWrapper css={{ "--delay-num": 9 }}>
               <Item>
                 <div>
-                  <a>
+                  <a href="https://www.prodigygame.com/">
                     <Icon
                       style={{ backgroundColor: "#ebebeb" }}
                       src="./img/prodigy.svg"
+                      alt="Prodigy Logo"
                     />
-                    <IconHoverEffect src="./img/prodigy.svg" />
+                    <IconHoverEffect
+                      src="./img/prodigy.svg"
+                      alt="Faded and Blurred Prodigy Logo"
+                    />
                   </a>
                 </div>
                 <ItemContent>
@@ -273,12 +289,16 @@ export default function Index() {
             <FadeInWrapper css={{ "--delay-num": 11 }}>
               <Item>
                 <div>
-                  <a>
+                  <a href="https://www.utoronto.ca/">
                     <Icon
                       style={{ backgroundColor: "#00234b" }}
                       src="./img/uoft.svg"
+                      alt="University of Toronto Logo"
                     />
-                    <IconHoverEffect src="./img/uoft.svg" />
+                    <IconHoverEffect
+                      src="./img/uoft.svg"
+                      alt="Faded and Blurred University of Toronto Logo"
+                    />
                   </a>
                 </div>
                 <ItemContent>

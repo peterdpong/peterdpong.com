@@ -12,7 +12,7 @@ export default function Notes() {
   return (
     <>
       <Head>
-        <meta http-equiv="Content-Language" content="en" />
+        <meta httpEquiv="Content-Language" content="en" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -27,7 +27,7 @@ export default function Notes() {
         />
         <meta
           property="twitter:description"
-          content="Computer Engineering at the University of Toronto and an incoming Software Engineer at Figma."
+          content="Peter Damrongpiriyapong - A place for me to document any of my learnings and thoughts."
         />
         <meta property="twitter:url" content="https://peterdpong.me" />
 
@@ -37,12 +37,16 @@ export default function Notes() {
           content="https://peterdpong.me/img/preview-img.png"
         />
         <meta
+          name="description"
+          content="Peter Damrongpiriyapong - A place for me to document any of my learnings and thoughts."
+        />
+        <meta
           property="description"
-          content="A place for me to document any of my learnings and thoughts"
+          content="Peter Damrongpiriyapong - A place for me to document any of my learnings and thoughts."
         />
         <meta
           property="og:description"
-          content="A place for me to document any of my learnings and thoughts"
+          content="Peter Damrongpiriyapong - A place for me to document any of my learnings and thoughts."
         />
         <meta property="og:url" content="https://peterdpong.me" />
 
