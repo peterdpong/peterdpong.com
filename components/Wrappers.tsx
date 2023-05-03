@@ -5,7 +5,7 @@ export const PageWrapper = styled("div", {
   minHeight: "100vh",
 });
 
-export const ContentWrapper = styled("div", {
+export const ContentWrapper = styled("main", {
   width: "100%",
   margin: "0 auto",
   paddingTop: "4rem",
