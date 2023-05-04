@@ -93,22 +93,24 @@ export default function Index() {
           <Section>
             <FadeInWrapper css={{ "--delay-num": 2 }}>
               <Description>
-                I am an engineer building helpful, delightful, and useful
-                software. Areas I am interested in are computer graphics,
-                mobile/web development, software for personal finance, and
-                multiplayer experiences.
+                Hello! I am an engineer who enjoys building helpful, delightful
+                software that people find useful! Areas I am interested in are
+                computer graphics, mobile/web development, video game
+                development, software for personal finance, and multiplayer
+                experiences.
               </Description>
             </FadeInWrapper>
             <FadeInWrapper css={{ "--delay-num": 3 }}>
               <Description>
-                Currently, I am studying Computer Engineering at the University
-                of Toronto and an incoming Software Engineer at{" "}
-                <Link href="https://www.figma.com/">Figma</Link>.
+                Currently, I am an incoming Software Engineer at{" "}
+                <Link href="https://www.figma.com/">Figma</Link>. I recently
+                graduated from the University of Toronto studying Computer
+                Engineering.
               </Description>
             </FadeInWrapper>
             <FadeInWrapper css={{ "--delay-num": 4 }}>
               <Description>
-                Previously, I was an intern at Figma building{" "}
+                Previously, I was an intern at Figma helping build{" "}
                 <Link href="https://www.figma.com/figjam/">FigJam</Link> and at{" "}
                 <Link href="https://www.prodigygame.com/">Prodigy</Link> working
                 on an in-house game/prefab editor.
