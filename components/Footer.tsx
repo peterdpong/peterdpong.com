@@ -6,7 +6,7 @@ export const Footer = () => {
       <Wrapper>
         <FooterContainer>
           <FooterText>Toronto</FooterText>
-          <FooterText>2023</FooterText>
+          <FooterText>{new Date().getUTCFullYear()}</FooterText>
           <FooterSocials>
             <a href="https://twitter.com/peterdpong" aria-label="Twitter Logo">
               <svg
