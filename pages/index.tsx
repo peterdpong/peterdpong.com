@@ -311,7 +311,7 @@ export default function Index() {
                     Bachelors of Applied Science, Computer Engineering
                   </ItemSubtitle>
                   <ItemSubtitle>
-                    High Honours and Dean's Honour List
+                    High Honours and Dean&apos;s Honour List
                   </ItemSubtitle>
                 </ItemContent>
               </Item>
