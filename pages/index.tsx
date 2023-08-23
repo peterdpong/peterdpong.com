@@ -101,8 +101,8 @@ export default function Index() {
             </FadeInWrapper>
             <FadeInWrapper css={{ "--delay-num": 3 }}>
               <Description>
-                Currently, I am an incoming Software Engineer at{" "}
-                <Link href="https://www.figma.com/">Figma</Link>. More recently,
+                Currently, I am a Software Engineer at{" "}
+                <Link href="https://www.figma.com/">Figma</Link> working on FigJam! More recently,
                 I graduated from the University of Toronto studying Computer
                 Engineering.
               </Description>
@@ -189,10 +189,41 @@ export default function Index() {
                 <ItemContent>
                   <Row>
                     <ItemTitle>Figma</ItemTitle>
+                    <Pill>2023 - Present</Pill>
+                  </Row>
+                  <ItemSubtitle>
+                    Software Engineer, FigJam
+                  </ItemSubtitle>
+                  <Row>
+                    <Pill>C++</Pill>
+                    <Pill>TypeScript</Pill>
+                    <Pill>React</Pill>
+                  </Row>
+                </ItemContent>
+              </Item>
+            </FadeInWrapper>
+            <FadeInWrapper css={{ "--delay-num": 8 }}>
+              <Item>
+                <div>
+                  <a href="https://www.figma.com/">
+                    <Icon
+                      style={{ backgroundColor: "#1e1e1e" }}
+                      src="./img/figma.svg"
+                      alt="Figma Logo"
+                    />
+                    <IconHoverEffect
+                      src="./img/figma.svg"
+                      alt="Faded and Blurred Figma Logo"
+                    />
+                  </a>
+                </div>
+                <ItemContent>
+                  <Row>
+                    <ItemTitle>Figma</ItemTitle>
                     <Pill>2022</Pill>
                   </Row>
                   <ItemSubtitle>
-                    FigJam, Software Engineering Intern
+                  Software Engineering Intern, FigJam
                   </ItemSubtitle>
                   <ItemSubtitle>
                     <Link href="https://twitter.com/peterdpong/status/1584947821509476352?s=20">
@@ -223,7 +254,7 @@ export default function Index() {
                 </ItemContent>
               </Item>
             </FadeInWrapper>
-            <FadeInWrapper css={{ "--delay-num": 8 }}>
+            <FadeInWrapper css={{ "--delay-num": 9 }}>
               <Item>
                 <div>
                   <a href="https://www.utoronto.ca/">
@@ -250,7 +281,7 @@ export default function Index() {
                 </ItemContent>
               </Item>
             </FadeInWrapper>
-            <FadeInWrapper css={{ "--delay-num": 9 }}>
+            <FadeInWrapper css={{ "--delay-num": 10 }}>
               <Item>
                 <div>
                   <a href="https://www.prodigygame.com/">
@@ -284,10 +315,10 @@ export default function Index() {
             </FadeInWrapper>
           </Section>
           <Section>
-            <FadeInWrapper css={{ "--delay-num": 10 }}>
+            <FadeInWrapper css={{ "--delay-num": 11 }}>
               <SectionTitle>Education</SectionTitle>
             </FadeInWrapper>
-            <FadeInWrapper css={{ "--delay-num": 11 }}>
+            <FadeInWrapper css={{ "--delay-num": 12 }}>
               <Item>
                 <div>
                   <a href="https://www.utoronto.ca/">
@@ -318,10 +349,10 @@ export default function Index() {
             </FadeInWrapper>
           </Section>
           <Section>
-            <FadeInWrapper css={{ "--delay-num": 12 }}>
+            <FadeInWrapper css={{ "--delay-num": 13 }}>
               <SectionTitle>Projects</SectionTitle>
             </FadeInWrapper>
-            <FadeInWrapper css={{ "--delay-num": 13 }}>
+            <FadeInWrapper css={{ "--delay-num": 14 }}>
               <Item>
                 <ItemContent>
                   <ItemTitle>Studydesk</ItemTitle>
@@ -329,7 +360,7 @@ export default function Index() {
                 </ItemContent>
               </Item>
             </FadeInWrapper>
-            <FadeInWrapper css={{ "--delay-num": 14 }}>
+            <FadeInWrapper css={{ "--delay-num": 15 }}>
               <Item>
                 <ItemContent>
                   <Link href="https://www.figma.com/community/widget/1109318554624490060/Color-Swatch">
@@ -349,7 +380,7 @@ export default function Index() {
                 </ItemContent>
               </Item>
             </FadeInWrapper>
-            <FadeInWrapper css={{ "--delay-num": 15 }}>
+            <FadeInWrapper css={{ "--delay-num": 16 }}>
               <Item>
                 <ItemContent>
                   <Link href="https://github.com/peterdpong/checked-android">
