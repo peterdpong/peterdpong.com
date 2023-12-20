@@ -60,16 +60,7 @@ export default function Notes() {
             <FadeInWrapper css={{ "--delay-num": 4 }}>
               <Row>
                 <Link href="/">
-                  Back to Index
-                  <Image
-                    src="img/nav-arrow.svg"
-                    alt="navigation-arrow"
-                    width={12}
-                    height={12}
-                  />
-                </Link>
-                <Link href="/playground">
-                  Playground
+                  Index
                   <Image
                     src="img/nav-arrow.svg"
                     alt="navigation-arrow"

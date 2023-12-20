@@ -78,36 +78,19 @@ export default function Index() {
                     height={12}
                   />
                 </Link>
-                <Link href="/notes">
-                  Notes
-                  <Image
-                    src="img/nav-arrow.svg"
-                    alt="navigation-arrow"
-                    width={12}
-                    height={12}
-                  />
-                </Link>
               </Row>
             </FadeInWrapper>
           </Section>
           <Section>
             <FadeInWrapper css={{ "--delay-num": 2 }}>
               <Description>
-                Hello! I am an engineer who enjoys building helpful, delightful
-                software that people find useful! I have interests in the areas
-                of computer graphics, mobile/web development, video game
-                development and multiplayer experiences.
+                Today, I work as a Software Engineer at{" "}
+                <Link href="https://www.figma.com/">Figma</Link> working on
+                FigJam! I love building helpful, delightful, and useful software
+                with a high level of craft and detail.
               </Description>
             </FadeInWrapper>
             <FadeInWrapper css={{ "--delay-num": 3 }}>
-              <Description>
-                Currently, I am a Software Engineer at{" "}
-                <Link href="https://www.figma.com/">Figma</Link> working on FigJam! More recently,
-                I graduated from the University of Toronto studying Computer
-                Engineering.
-              </Description>
-            </FadeInWrapper>
-            <FadeInWrapper css={{ "--delay-num": 4 }}>
               <Description>
                 In the past, I was an intern at Figma helping build{" "}
                 <Link href="https://www.figma.com/figjam/">FigJam</Link> and at{" "}
@@ -139,15 +122,6 @@ export default function Index() {
                 </Link>
                 <Link href="https://www.figma.com/@petah">
                   Figma
-                  <Image
-                    src="img/nav-arrow.svg"
-                    alt="navigation-arrow"
-                    width={12}
-                    height={12}
-                  />
-                </Link>
-                <Link href="https://www.linkedin.com/in/peterdpong/">
-                  Linkedin
                   <Image
                     src="img/nav-arrow.svg"
                     alt="navigation-arrow"
@@ -191,8 +165,17 @@ export default function Index() {
                     <ItemTitle>Figma</ItemTitle>
                     <Pill>2023 - Present</Pill>
                   </Row>
+                  <ItemSubtitle>Software Engineer, FigJam</ItemSubtitle>
                   <ItemSubtitle>
-                    Software Engineer, FigJam
+                    <Link href="https://www.figma.com/blog/introducing-ai-to-figjam/">
+                      FigJam AI
+                      <Image
+                        src="img/nav-arrow.svg"
+                        alt="navigation-arrow"
+                        width={12}
+                        height={12}
+                      />
+                    </Link>
                   </ItemSubtitle>
                   <Row>
                     <Pill>C++</Pill>
@@ -223,7 +206,7 @@ export default function Index() {
                     <Pill>2022</Pill>
                   </Row>
                   <ItemSubtitle>
-                  Software Engineering Intern, FigJam
+                    Software Engineering Intern, FigJam
                   </ItemSubtitle>
                   <ItemSubtitle>
                     <Link href="https://twitter.com/peterdpong/status/1584947821509476352?s=20">
@@ -355,14 +338,6 @@ export default function Index() {
             <FadeInWrapper css={{ "--delay-num": 14 }}>
               <Item>
                 <ItemContent>
-                  <ItemTitle>Studydesk</ItemTitle>
-                  <ItemSubtitle>A home for your studying.</ItemSubtitle>
-                </ItemContent>
-              </Item>
-            </FadeInWrapper>
-            <FadeInWrapper css={{ "--delay-num": 15 }}>
-              <Item>
-                <ItemContent>
                   <Link href="https://www.figma.com/community/widget/1109318554624490060/Color-Swatch">
                     <ItemTitle>
                       Color Swatch
@@ -375,27 +350,7 @@ export default function Index() {
                     </ItemTitle>
                   </Link>
                   <ItemSubtitle>
-                    A Color Swatch Widget for FigJam and Figma
-                  </ItemSubtitle>
-                </ItemContent>
-              </Item>
-            </FadeInWrapper>
-            <FadeInWrapper css={{ "--delay-num": 16 }}>
-              <Item>
-                <ItemContent>
-                  <Link href="https://github.com/peterdpong/checked-android">
-                    <ItemTitle>
-                      Checked
-                      <Image
-                        src="img/nav-arrow.svg"
-                        alt="navigation-arrow"
-                        width={12}
-                        height={12}
-                      />
-                    </ItemTitle>
-                  </Link>
-                  <ItemSubtitle>
-                    A Minimalistic Android To-do app written in Kotlin
+                    A color swatch widget for FigJam and Figma
                   </ItemSubtitle>
                 </ItemContent>
               </Item>

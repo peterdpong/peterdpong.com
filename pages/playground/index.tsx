@@ -61,16 +61,7 @@ export default function PlaygroundIndex() {
             <FadeInWrapper css={{ "--delay-num": 4 }}>
               <Row>
                 <Link href="/">
-                  Back to Index
-                  <Image
-                    src="img/nav-arrow.svg"
-                    alt="navigation-arrow"
-                    width={12}
-                    height={12}
-                  />
-                </Link>
-                <Link href="/notes">
-                  Notes
+                  Index
                   <Image
                     src="img/nav-arrow.svg"
                     alt="navigation-arrow"
@@ -86,7 +77,7 @@ export default function PlaygroundIndex() {
             </FadeInWrapper>
             <FadeInWrapper css={{ "--delay-num": 1 }}>
               <Description>
-                A playground for fun experimental UI elements.
+                for fun experimental and explorational stuff.
               </Description>
             </FadeInWrapper>
           </Section>
