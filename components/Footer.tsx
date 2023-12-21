@@ -5,7 +5,7 @@ export const Footer = () => {
     <FooterDiv>
       <Wrapper>
         <FooterContainer>
-          <FooterText>New York + Toronto</FooterText>
+          <FooterText>NYC / Toronto</FooterText>
           <FooterText>{new Date().getUTCFullYear()}</FooterText>
           <FooterSocials>
             <a href="https://twitter.com/peterdpong" aria-label="Twitter Logo">
