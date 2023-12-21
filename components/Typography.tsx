@@ -7,6 +7,13 @@ const Title = styled("h1", {
   color: "$gray12",
 });
 
+const Subtitle = styled("h1", {
+  fontFamily: "var(--dm-sans)",
+  fontWeight: 500,
+  fontSize: "1.45rem",
+  color: "$gray12",
+});
+
 const SectionTitle = styled("h1", {
   fontFamily: "var(--dm-sans)",
   fontWeight: 500,
@@ -37,4 +44,19 @@ const ItemSubtitle = styled("div", {
   color: "$gray11",
 });
 
-export { Title, SectionTitle, Description, ItemTitle, ItemSubtitle };
+const HorizontalRule = styled("hr", {
+  border: "none",
+  borderTop: "1px dashed",
+  color: "$gray10",
+  marginBottom: "8px",
+});
+
+export {
+  Title,
+  Subtitle,
+  SectionTitle,
+  Description,
+  ItemTitle,
+  ItemSubtitle,
+  HorizontalRule,
+};

@@ -34,7 +34,7 @@ export default function Index() {
         />
         <meta
           property="twitter:description"
-          content="Peter Damrongpiriyapong - Computer Engineering at the University of Toronto and an incoming Software Engineer at Figma."
+          content="Peter Damrongpiriyapong - Software Engineer at Figma."
         />
         <meta property="twitter:url" content="https://peterdpong.me" />
 
@@ -45,15 +45,15 @@ export default function Index() {
         />
         <meta
           name="description"
-          content="Peter Damrongpiriyapong - Computer Engineering at the University of Toronto and an incoming Software Engineer at Figma."
+          content="Peter Damrongpiriyapong - Software Engineer at Figma."
         ></meta>
         <meta
           property="description"
-          content="Peter Damrongpiriyapong - Computer Engineering at the University of Toronto and an incoming Software Engineer at Figma."
+          content="Peter Damrongpiriyapong - Software Engineer at Figma."
         />
         <meta
           property="og:description"
-          content="Peter Damrongpiriyapong - Computer Engineering at the University of Toronto and an incoming Software Engineer at Figma."
+          content="Peter Damrongpiriyapong - Software Engineer at Figma."
         />
         <meta property="og:url" content="https://peterdpong.me" />
 
@@ -69,14 +69,27 @@ export default function Index() {
             </FadeInWrapper>
             <FadeInWrapper css={{ "--delay-num": 1 }}>
               <Row>
+                <Link href="/work">
+                  <ItemTitle>
+                    Work
+                    <Image
+                      src="img/nav-arrow.svg"
+                      alt="navigation-arrow"
+                      width={12}
+                      height={12}
+                    />
+                  </ItemTitle>
+                </Link>
                 <Link href="/playground">
-                  Playground
-                  <Image
-                    src="img/nav-arrow.svg"
-                    alt="navigation-arrow"
-                    width={12}
-                    height={12}
-                  />
+                  <ItemTitle>
+                    Playground
+                    <Image
+                      src="img/nav-arrow.svg"
+                      alt="navigation-arrow"
+                      width={12}
+                      height={12}
+                    />
+                  </ItemTitle>
                 </Link>
               </Row>
             </FadeInWrapper>
@@ -163,20 +176,9 @@ export default function Index() {
                 <ItemContent>
                   <Row>
                     <ItemTitle>Figma</ItemTitle>
-                    <Pill>2023 - Present</Pill>
+                    <Pill>2023 – Present</Pill>
                   </Row>
                   <ItemSubtitle>Software Engineer, FigJam</ItemSubtitle>
-                  <ItemSubtitle>
-                    <Link href="https://www.figma.com/blog/introducing-ai-to-figjam/">
-                      FigJam AI
-                      <Image
-                        src="img/nav-arrow.svg"
-                        alt="navigation-arrow"
-                        width={12}
-                        height={12}
-                      />
-                    </Link>
-                  </ItemSubtitle>
                   <Row>
                     <Pill>C++</Pill>
                     <Pill>TypeScript</Pill>
@@ -207,27 +209,6 @@ export default function Index() {
                   </Row>
                   <ItemSubtitle>
                     Software Engineering Intern, FigJam
-                  </ItemSubtitle>
-                  <ItemSubtitle>
-                    <Link href="https://twitter.com/peterdpong/status/1584947821509476352?s=20">
-                      Markdown
-                      <Image
-                        src="img/nav-arrow.svg"
-                        alt="navigation-arrow"
-                        width={12}
-                        height={12}
-                      />
-                    </Link>{" "}
-                    and{" "}
-                    <Link href="https://www.figma.com/blog/little-big-updates-august-2022/">
-                      Quick Create Placement
-                      <Image
-                        src="img/nav-arrow.svg"
-                        alt="navigation-arrow"
-                        width={12}
-                        height={12}
-                      />
-                    </Link>
                   </ItemSubtitle>
                   <Row>
                     <Pill>C++</Pill>
@@ -319,7 +300,7 @@ export default function Index() {
                 <ItemContent>
                   <Row>
                     <ItemTitle>University of Toronto</ItemTitle>
-                    <Pill>2019 - 2023</Pill>
+                    <Pill>2019 – 2023</Pill>
                   </Row>
                   <ItemSubtitle>
                     Bachelors of Applied Science, Computer Engineering
@@ -396,7 +377,7 @@ const IconHoverEffect = styled("img", {
   transition: "all 0.5s ease-in-out",
   "&:hover": {
     opacity: 0.75,
-    filter: "blur(5px)",
+    filter: "blur(4px)",
   },
 });
 
