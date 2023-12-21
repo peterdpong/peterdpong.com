@@ -128,7 +128,7 @@ export default function Index() {
                     </Video>
                   </VideoContainer>
 
-                  <Link href="/work/markdown">
+                  {/* <Link href="/work/markdown">
                     <ItemTitle>
                       Markdown in FigJam
                       <Image
@@ -138,7 +138,8 @@ export default function Index() {
                         height={12}
                       />
                     </ItemTitle>
-                  </Link>
+                  </Link> */}
+                  <ItemTitle>Markdown in FigJam</ItemTitle>
                   <Description>
                     Adding Markdown support for text, improving text formatting
                     in FigJam.
@@ -153,7 +154,7 @@ export default function Index() {
                     </Video>
                   </VideoContainer>
 
-                  <Link href="/work/quick-create">
+                  {/* <Link href="/work/quick-create">
                     <ItemTitle>
                       Quick Create Improvements
                       <Image
@@ -163,7 +164,8 @@ export default function Index() {
                         height={12}
                       />
                     </ItemTitle>
-                  </Link>
+                  </Link> */}
+                  <ItemTitle>Quick Create Improvements</ItemTitle>
                   <Description>
                     Smart content aware quick create placement for a better
                     diagramming experience in FigJam.
