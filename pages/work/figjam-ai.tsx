@@ -80,7 +80,7 @@ export default function FigJamAIPage() {
             <FadeInWrapper css={{ "--delay-num": 0 }}>
               <Card>
                 <VideoContainer>
-                  <CoverVideo loop autoPlay muted>
+                  <CoverVideo loop autoPlay muted playsInline>
                     <source src="/video/figjamai.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </CoverVideo>
@@ -110,8 +110,8 @@ export default function FigJamAIPage() {
               <HorizontalRule />
               <Description>
                 <Link href="https://www.tash.work/">Natasha</Link> designed
-                these subtle but satisfying UI details that I had to get in
-                before we launched.
+                these subtle, but satisfying UI details that I fun opportunity
+                to implement.
               </Description>
             </FadeInWrapper>
 
@@ -119,7 +119,7 @@ export default function FigJamAIPage() {
               <GridOne>
                 <FadeInWrapper css={{ "--delay-num": 3 }}>
                   <VideoEmbed>
-                    <Video loop autoPlay muted>
+                    <Video loop autoPlay muted playsInline>
                       <source src="/video/modal.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </Video>
@@ -127,7 +127,7 @@ export default function FigJamAIPage() {
                 </FadeInWrapper>
                 <FadeInWrapper css={{ "--delay-num": 5 }}>
                   <VideoEmbed>
-                    <Video loop autoPlay muted>
+                    <Video loop autoPlay muted playsInline>
                       <source src="/video/templates.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </Video>
@@ -137,7 +137,7 @@ export default function FigJamAIPage() {
               <GridTwo>
                 <FadeInWrapper css={{ "--delay-num": 4 }}>
                   <VideoEmbed>
-                    <Video loop autoPlay muted>
+                    <Video loop autoPlay muted playsInline>
                       <source src="/video/shimmer.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </Video>
@@ -145,7 +145,7 @@ export default function FigJamAIPage() {
                 </FadeInWrapper>
                 <FadeInWrapper css={{ "--delay-num": 6 }}>
                   <VideoEmbed>
-                    <Video loop autoPlay muted>
+                    <Video loop autoPlay muted playsInline>
                       <source
                         src="/video/prompt-builder.mp4"
                         type="video/mp4"

@@ -88,7 +88,7 @@ export default function Index() {
               </YearDiv>
               <Card>
                 <VideoContainer>
-                  <Video loop autoPlay muted>
+                  <Video loop autoPlay muted playsInline>
                     <source src="video/figjamai.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </Video>
@@ -122,7 +122,7 @@ export default function Index() {
               <Column>
                 <Card>
                   <VideoContainer>
-                    <Video loop autoPlay muted>
+                    <Video loop autoPlay muted playsInline>
                       <source src="video/markdown.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </Video>
@@ -148,7 +148,7 @@ export default function Index() {
 
                 <Card>
                   <VideoContainer>
-                    <Video loop autoPlay muted>
+                    <Video loop autoPlay muted playsInline>
                       <source src="video/quick-create.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </Video>

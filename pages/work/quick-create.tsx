@@ -75,7 +75,7 @@ export default function QuickCreatePage() {
             <FadeInWrapper css={{ "--delay-num": 2 }}>
               <Card>
                 <VideoContainer>
-                  <CoverVideo loop autoPlay muted>
+                  <CoverVideo loop autoPlay muted playsInline>
                     <source src="/video/quick-create.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </CoverVideo>
