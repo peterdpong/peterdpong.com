@@ -80,7 +80,7 @@ export default function Index() {
                     />
                   </ItemTitle>
                 </Link>
-                <Link href="/playground">
+                {/* <Link href="/playground">
                   <ItemTitle>
                     Playground
                     <Image
@@ -90,14 +90,14 @@ export default function Index() {
                       height={12}
                     />
                   </ItemTitle>
-                </Link>
+                </Link> */}
               </Row>
             </FadeInWrapper>
           </Section>
           <Section>
             <FadeInWrapper css={{ "--delay-num": 2 }}>
               <Description>
-                Today, I work as a Software Engineer at{" "}
+                Hello! I am a Software Engineer at{" "}
                 <Link href="https://www.figma.com/">Figma</Link> working on
                 FigJam! I love building helpful, delightful, and useful software
                 with a high level of craft and detail.

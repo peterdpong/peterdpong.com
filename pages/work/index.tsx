@@ -87,14 +87,27 @@ export default function Index() {
                 <YearTitle>2023</YearTitle>
               </YearDiv>
               <Card>
-                <VideoContainer>
-                  <Video loop autoPlay muted playsInline>
-                    <source src="video/figjamai.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </Video>
-                </VideoContainer>
+                <ItemTitle>FigJam AI</ItemTitle>
+                <Description>
+                  Helped bring AI capabilities to FigJam. AI powered generation
+                  of templates and visuals, and summarization/clustering of
+                  stickies.
+                </Description>
+                <Image
+                  src="/gif/figjam_ai.gif"
+                  alt="Gif of FigJam AI"
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  style={{
+                    width: "100%",
+                    height: "350px",
+                    objectFit: "cover",
+                    borderRadius: "8px",
+                  }}
+                />
 
-                <Link href="work/figjam-ai">
+                {/* <Link href="work/figjam-ai">
                   <ItemTitle>
                     FigJam AI
                     <Image
@@ -104,12 +117,7 @@ export default function Index() {
                       height={12}
                     />
                   </ItemTitle>
-                </Link>
-                <Description>
-                  Helped bring AI capabilities to FigJam. AI powered generation
-                  of templates and visuals, and summarization/clustering of
-                  stickies.
-                </Description>
+                </Link> */}
               </Card>
               <ItemSubtitle></ItemSubtitle>
             </FadeInWrapper>
@@ -121,12 +129,24 @@ export default function Index() {
               </YearDiv>
               <Column>
                 <Card>
-                  <VideoContainer>
-                    <Video loop autoPlay muted playsInline>
-                      <source src="video/markdown.mp4" type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </Video>
-                  </VideoContainer>
+                  <ItemTitle>Markdown in FigJam</ItemTitle>
+                  <Description>
+                    Adding Markdown support for text, improving text formatting
+                    in FigJam.
+                  </Description>
+                  <Image
+                    src="/gif/figjam_markdown.gif"
+                    alt="Gif of FigJam AI"
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    style={{
+                      width: "100%",
+                      height: "350px",
+                      objectFit: "cover",
+                      borderRadius: "8px",
+                    }}
+                  />
 
                   {/* <Link href="/work/markdown">
                     <ItemTitle>
@@ -139,20 +159,27 @@ export default function Index() {
                       />
                     </ItemTitle>
                   </Link> */}
-                  <ItemTitle>Markdown in FigJam</ItemTitle>
-                  <Description>
-                    Adding Markdown support for text, improving text formatting
-                    in FigJam.
-                  </Description>
                 </Card>
 
                 <Card>
-                  <VideoContainer>
-                    <Video loop autoPlay muted playsInline>
-                      <source src="video/quick-create.mp4" type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </Video>
-                  </VideoContainer>
+                  <ItemTitle>Quick Create Improvements</ItemTitle>
+                  <Description>
+                    Smart content aware quick create placement for a better
+                    diagramming experience in FigJam.
+                  </Description>
+                  <Image
+                    src="/gif/figjam_quickadd.gif"
+                    alt="Gif of FigJam AI"
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    style={{
+                      width: "100%",
+                      height: "500px",
+                      objectFit: "cover",
+                      borderRadius: "8px",
+                    }}
+                  />
 
                   {/* <Link href="/work/quick-create">
                     <ItemTitle>
@@ -165,11 +192,6 @@ export default function Index() {
                       />
                     </ItemTitle>
                   </Link> */}
-                  <ItemTitle>Quick Create Improvements</ItemTitle>
-                  <Description>
-                    Smart content aware quick create placement for a better
-                    diagramming experience in FigJam.
-                  </Description>
                 </Card>
               </Column>
             </FadeInWrapper>
@@ -185,17 +207,6 @@ const Card = styled("div", {
   display: "flex",
   flexDirection: "column",
   gap: "4px",
-});
-
-const VideoContainer = styled("div", {
-  height: "350px",
-});
-
-const Video = styled("video", {
-  height: "100%",
-  width: "100%",
-  objectFit: "cover",
-  borderRadius: "8px",
 });
 
 const Row = styled("div", {
