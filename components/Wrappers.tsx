@@ -6,11 +6,9 @@ export const PageWrapper = styled("div", {
 });
 
 export const ContentWrapper = styled("main", {
-  width: "100%",
-  margin: "0 auto",
-  paddingTop: "4rem",
+  margin: "0 15%",
+  paddingTop: "1.5rem",
   paddingBottom: "2.5rem",
   display: "flex",
   flexDirection: "column",
-  maxWidth: "40rem",
 });
