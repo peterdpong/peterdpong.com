@@ -186,7 +186,7 @@ const FloatingCardRight = styled("div", {
   border: "1px solid rgb(0 0 0 / 0.2)",
   boxShadow: "0px 0px 4px rgba(15, 15, 15, 0.02), 0px 0px 3px rgba(15, 15, 15, 0.08), 0px 0px 3px rgba(15, 15, 15, 0.13), 0px 0px 1px rgba(15, 15, 15, 0.15)",
   transform: "rotate(var(--rotate-deg))",
-  transition: "0.25s ease-in-out",
+  transition: "0.25s ease",
   "&:hover": {
     transform: "rotate(var(--rotate-deg-hover)) translate(15px, 5px)",
   }
@@ -206,7 +206,7 @@ const FloatingCardLeft = styled("div", {
   border: "1px solid rgb(0 0 0 / 0.2)",
   boxShadow: "0px 0px 4px rgba(15, 15, 15, 0.02), 0px 0px 3px rgba(15, 15, 15, 0.08), 0px 0px 3px rgba(15, 15, 15, 0.13), 0px 0px 1px rgba(15, 15, 15, 0.15)",
   transform: "rotate(var(--rotate-deg))",
-  transition: "0.25s ease-in-out",
+  transition: "0.25s ease",
   "&:hover": {
     transform: "rotate(var(--rotate-deg-hover)) translate(-15px, -5px)",
   }
