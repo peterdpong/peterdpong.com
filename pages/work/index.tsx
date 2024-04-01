@@ -192,9 +192,9 @@ const FloatingCardRight = styled("div", {
   right: "-25px",
   bottom: "-20px",
   maxWidth: "325px",
-  borderRadius: "6px",
+  borderRadius: "8px",
   padding: "6px 10px",
-  border: "1px solid rgb(0 0 0 / 0.2)",
+  outline: "1px solid rgb(0 0 0 / 0.1)",
   boxShadow:
     "0px 0px 4px rgba(15, 15, 15, 0.02), 0px 0px 3px rgba(15, 15, 15, 0.08), 0px 0px 3px rgba(15, 15, 15, 0.13), 0px 0px 1px rgba(15, 15, 15, 0.15)",
   transform: "rotate(var(--rotate-deg))",
@@ -214,9 +214,9 @@ const FloatingCardLeft = styled("div", {
   left: "-20px",
   bottom: "-20px",
   maxWidth: "325px",
-  borderRadius: "6px",
+  borderRadius: "8px",
   padding: "6px 10px",
-  border: "1px solid rgb(0 0 0 / 0.2)",
+  outline: "1px solid rgb(0 0 0 / 0.1)",
   boxShadow:
     "0px 0px 4px rgba(15, 15, 15, 0.02), 0px 0px 3px rgba(15, 15, 15, 0.08), 0px 0px 3px rgba(15, 15, 15, 0.13), 0px 0px 1px rgba(15, 15, 15, 0.15)",
   transform: "rotate(var(--rotate-deg))",
@@ -231,12 +231,13 @@ const CardTitle = styled("div", {
   fontFamily: "var(--dm-sans)",
   fontWeight: 500,
   fontSize: "1.15rem",
+  marginBottom: "0.15rem",
   color: "$gray1",
 });
 
 const CardDescription = styled("div", {
   fontFamily: "var(--dm-sans)",
-  fontWeight: 500,
+  fontWeight: 400,
   fontSize: "0.8rem",
   color: "$gray8",
 });
