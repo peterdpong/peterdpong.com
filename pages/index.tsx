@@ -1,10 +1,14 @@
 import { FadeInWrapper } from "@/components/FadeInWrapper";
 import { Footer } from "@/components/Footer";
 import { Link } from "@/components/Link";
-import { Row } from "@/components/Row";
 import { Section } from "@/components/Section";
 import {
   Description,
+  HorizontalRule,
+  WorkItemTitle,
+  WorkItemDate,
+  WorkItemJobTitle,
+  HeroText,
   ItemSubtitle,
   ItemTitle,
   SectionTitle,
@@ -65,9 +69,10 @@ export default function Index() {
         <ContentWrapper>
           <Section>
             <FadeInWrapper css={{ "--delay-num": 0 }}>
-              <Title>Peter Damrongpiriyapong</Title>
+              <Title>PETER</Title>
+              <Title>DAMRONGPIRIYAPONG</Title>
             </FadeInWrapper>
-            <FadeInWrapper css={{ "--delay-num": 1 }}>
+            {/* <FadeInWrapper css={{ "--delay-num": 1 }}>
               <Row>
                 <Link href="/work">
                   <ItemTitle>
@@ -80,39 +85,28 @@ export default function Index() {
                     />
                   </ItemTitle>
                 </Link>
-                {/* <Link href="/playground">
-                  <ItemTitle>
-                    Playground
-                    <Image
-                      src="img/nav-arrow.svg"
-                      alt="navigation-arrow"
-                      width={12}
-                      height={12}
-                    />
-                  </ItemTitle>
-                </Link> */}
               </Row>
-            </FadeInWrapper>
+            </FadeInWrapper> */}
           </Section>
           <Section>
             <FadeInWrapper css={{ "--delay-num": 2 }}>
-              <Description>
-                Hello! I am a Software Engineer at{" "}
+              <HeroText>
+                I am a Software Engineer at{" "}
                 <Link href="https://www.figma.com/">Figma</Link> working on
                 FigJam! I love building helpful, delightful, and useful software
                 with a high level of craft and detail.
-              </Description>
+              </HeroText>
             </FadeInWrapper>
             <FadeInWrapper css={{ "--delay-num": 3 }}>
-              <Description>
+              <HeroText>
                 In the past, I was an intern at Figma helping build{" "}
                 <Link href="https://www.figma.com/figjam/">FigJam</Link> and at{" "}
                 <Link href="https://www.prodigygame.com/">Prodigy</Link> working
                 on an in-house game/prefab editor.
-              </Description>
+              </HeroText>
             </FadeInWrapper>
           </Section>
-          <Section>
+          {/* <Section>
             <FadeInWrapper css={{ "--delay-num": 5 }}>
               <Row>
                 <Link href="https://twitter.com/peterdpong">
@@ -153,11 +147,143 @@ export default function Index() {
                 </Link>
               </Row>
             </FadeInWrapper>
-          </Section>
+          </Section> */}
           <Section>
             <FadeInWrapper css={{ "--delay-num": 6 }}>
-              <SectionTitle>Work</SectionTitle>
+              <SectionTitle>My work.</SectionTitle>
             </FadeInWrapper>
+          </Section>
+
+          <Section>
+            <FadeInWrapper css={{ "--delay-num": 7 }}>
+              <WorkItemDate>2023 — PRESENT</WorkItemDate>
+              <WorkItemTitle>Figma</WorkItemTitle>
+              <WorkItemJobTitle>SOFTWARE ENGINEER, FIGJAM</WorkItemJobTitle>
+            </FadeInWrapper>
+
+            <FadeInWrapper css={{ "--delay-num": 2 }}>
+              <Card>
+                <FloatingCardRight
+                  css={{
+                    "--rotate-deg": "-5deg",
+                    "--rotate-deg-hover": "2deg",
+                  }}
+                >
+                  <CardTitle>FigJam AI</CardTitle>
+                  <CardDescription>
+                    Helped bring AI capabilities to FigJam. AI powered
+                    generation of templates and visuals, and
+                    summarization/clustering of stickies.
+                  </CardDescription>
+                </FloatingCardRight>
+                <Image
+                  src="/gif/figjam_ai.gif"
+                  alt="Gif of FigJam AI"
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  style={{
+                    width: "100%",
+                    height: "400px",
+                    objectFit: "cover",
+                    borderRadius: "8px",
+                  }}
+                />
+              </Card>
+            </FadeInWrapper>
+          </Section>
+
+          <Section>
+            <FadeInWrapper css={{ "--delay-num": 7 }}>
+              <WorkItemDate>2022</WorkItemDate>
+              <WorkItemTitle>Figma</WorkItemTitle>
+              <WorkItemJobTitle>
+                SOFTWARE ENGINEERING INTERN, FIGJAM
+              </WorkItemJobTitle>
+            </FadeInWrapper>
+
+            <FadeInWrapper css={{ "--delay-num": 4 }}>
+              <Card>
+                <FloatingCardLeft
+                  css={{
+                    "--rotate-deg": "4deg",
+                    "--rotate-deg-hover": "-2deg",
+                  }}
+                >
+                  <CardTitle>Markdown in FigJam</CardTitle>
+                  <CardDescription>
+                    Adding Markdown support for text, improving text formatting
+                    in FigJam.
+                  </CardDescription>
+                </FloatingCardLeft>
+                <Image
+                  src="/gif/figjam_markdown.gif"
+                  alt="Gif of FigJam AI"
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  style={{
+                    width: "100%",
+                    height: "400px",
+                    objectFit: "cover",
+                    borderRadius: "8px",
+                  }}
+                />
+              </Card>
+            </FadeInWrapper>
+
+            <FadeInWrapper css={{ "--delay-num": 6 }}>
+              <Card>
+                <FloatingCardRight
+                  css={{
+                    "--rotate-deg": "-4deg",
+                    "--rotate-deg-hover": "1deg",
+                  }}
+                >
+                  <CardTitle>Quick Create Improvements</CardTitle>
+                  <CardDescription>
+                    Smart content aware quick create placement for a better
+                    diagramming experience in FigJam.
+                  </CardDescription>
+                </FloatingCardRight>
+                <Image
+                  src="/gif/figjam_quickadd.gif"
+                  alt="Gif of FigJam AI"
+                  width="0"
+                  height="0"
+                  sizes="100vw"
+                  style={{
+                    width: "100%",
+                    height: "400px",
+                    objectFit: "cover",
+                    borderRadius: "8px",
+                  }}
+                />
+              </Card>
+            </FadeInWrapper>
+          </Section>
+
+          <Section>
+            <FadeInWrapper css={{ "--delay-num": 7 }}>
+              <WorkItemDate>2022</WorkItemDate>
+              <WorkItemTitle>University of Toronto</WorkItemTitle>
+              <WorkItemJobTitle>
+                TEACHING ASSISTANT, ECE297: SOFTWARE DESIGN AND COMMUNICATION
+              </WorkItemJobTitle>
+            </FadeInWrapper>
+          </Section>
+
+          <Section>
+            <FadeInWrapper css={{ "--delay-num": 7 }}>
+              <WorkItemDate>2021</WorkItemDate>
+              <WorkItemTitle>Prodigy</WorkItemTitle>
+              <WorkItemJobTitle>
+                GAME DEVELOPER INTERN, GAME PLATFORM
+              </WorkItemJobTitle>
+            </FadeInWrapper>
+          </Section>
+
+          {/* <Section>
             <FadeInWrapper css={{ "--delay-num": 7 }}>
               <Item>
                 <div>
@@ -277,41 +403,26 @@ export default function Index() {
                 </ItemContent>
               </Item>
             </FadeInWrapper>
-          </Section>
+          </Section> */}
+
           <Section>
             <FadeInWrapper css={{ "--delay-num": 11 }}>
               <SectionTitle>Education</SectionTitle>
             </FadeInWrapper>
+          </Section>
+          <Section>
             <FadeInWrapper css={{ "--delay-num": 12 }}>
-              <Item>
-                <div>
-                  <a href="https://www.utoronto.ca/">
-                    <Icon
-                      style={{ backgroundColor: "#00234b" }}
-                      src="./img/uoft.svg"
-                      alt="University of Toronto Logo"
-                    />
-                    <IconHoverEffect
-                      src="./img/uoft.svg"
-                      alt="Faded and Blurred University of Toronto Logo"
-                    />
-                  </a>
-                </div>
-                <ItemContent>
-                  <Row>
-                    <ItemTitle>University of Toronto</ItemTitle>
-                    <Pill>2019 – 2023</Pill>
-                  </Row>
-                  <ItemSubtitle>
-                    Bachelors of Applied Science, Computer Engineering
-                  </ItemSubtitle>
-                  <ItemSubtitle>
-                    High Honours and Dean&apos;s Honour List
-                  </ItemSubtitle>
-                </ItemContent>
-              </Item>
+              <WorkItemDate>2019 — 2023</WorkItemDate>
+              <WorkItemTitle>University of Toronto</WorkItemTitle>
+              <WorkItemJobTitle>
+                BACHELORS OF APPLIED SCIENCE, COMPUTER ENGINEERING
+              </WorkItemJobTitle>
+              <WorkItemJobTitle>
+                HIGH HONOURS AND DEAN&apos;S HONOUR LIST
+              </WorkItemJobTitle>
             </FadeInWrapper>
           </Section>
+
           <Section>
             <FadeInWrapper css={{ "--delay-num": 13 }}>
               <SectionTitle>Projects</SectionTitle>
@@ -320,15 +431,7 @@ export default function Index() {
               <Item>
                 <ItemContent>
                   <Link href="https://www.figma.com/community/widget/1109318554624490060/Color-Swatch">
-                    <ItemTitle>
-                      Color Swatch
-                      <Image
-                        src="img/nav-arrow.svg"
-                        alt="navigation-arrow"
-                        width={12}
-                        height={12}
-                      />
-                    </ItemTitle>
+                    <ItemTitle>Colour Swatch</ItemTitle>
                   </Link>
                   <ItemSubtitle>
                     A color swatch widget for FigJam and Figma
@@ -390,4 +493,75 @@ const Pill = styled("div", {
   padding: "2px 6px",
   margin: "2px 0px",
   borderRadius: "5px",
+});
+
+const Card = styled("div", {
+  height: "400px",
+  border: "1px solid rgb(0 0 0 / 0.8)",
+  borderRadius: "8px",
+  marginBottom: "2rem",
+});
+
+const FloatingCardRight = styled("div", {
+  "--rotate-deg": "0deg",
+  "--rotate-deg-hover": "0deg",
+  position: "absolute",
+  backgroundColor: "#ffffff",
+  color: "#262626",
+  right: "-25px",
+  bottom: "-20px",
+  maxWidth: "325px",
+  borderRadius: "8px",
+  padding: "6px 10px",
+  outline: "1px solid rgb(0 0 0 / 0.1)",
+  boxShadow:
+    "0px 0px 4px rgba(15, 15, 15, 0.02), 0px 0px 3px rgba(15, 15, 15, 0.08), 0px 0px 3px rgba(15, 15, 15, 0.13), 0px 0px 1px rgba(15, 15, 15, 0.15)",
+  transform: "rotate(var(--rotate-deg))",
+  transition: "0.25s ease",
+  cursor: "default",
+  "&:hover": {
+    transform: "rotate(var(--rotate-deg-hover)) translate(15px, 5px)",
+  },
+});
+
+const FloatingCardLeft = styled("div", {
+  "--rotate-deg": "0deg",
+  "--rotate-deg-hover": "0deg",
+  position: "absolute",
+  backgroundColor: "#ffffff",
+  color: "#262626",
+  left: "-20px",
+  bottom: "-20px",
+  maxWidth: "325px",
+  borderRadius: "8px",
+  padding: "6px 10px",
+  outline: "1px solid rgb(0 0 0 / 0.1)",
+  boxShadow:
+    "0px 0px 4px rgba(15, 15, 15, 0.02), 0px 0px 3px rgba(15, 15, 15, 0.08), 0px 0px 3px rgba(15, 15, 15, 0.13), 0px 0px 1px rgba(15, 15, 15, 0.15)",
+  transform: "rotate(var(--rotate-deg))",
+  transition: "0.25s ease",
+  cursor: "default",
+  "&:hover": {
+    transform: "rotate(var(--rotate-deg-hover)) translate(-15px, -5px)",
+  },
+});
+
+const CardTitle = styled("div", {
+  fontFamily: "var(--dm-sans)",
+  fontWeight: 500,
+  fontSize: "1.15rem",
+  marginBottom: "0.15rem",
+  color: "$gray1",
+});
+
+const CardDescription = styled("div", {
+  fontFamily: "var(--dm-sans)",
+  fontWeight: 400,
+  fontSize: "0.8rem",
+  color: "$gray8",
+});
+
+const Row = styled("div", {
+  display: "flex",
+  flexWrap: "wrap",
 });

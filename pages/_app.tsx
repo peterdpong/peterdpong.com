@@ -27,6 +27,6 @@ export default function App({ Component, pageProps }: AppProps) {
 }
 
 const Wrapper = styled("div", {
-  background: "#141414",
+  background: "#EFE7DA",
   minHeight: "100vh",
 });

@@ -12,5 +12,5 @@ export const ContentWrapper = styled("main", {
   paddingBottom: "2.5rem",
   display: "flex",
   flexDirection: "column",
-  maxWidth: "40rem",
+  maxWidth: "80rem",
 });
