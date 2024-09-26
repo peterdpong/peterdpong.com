@@ -94,16 +94,12 @@ export default function Index() {
                 I am a Software Engineer at{" "}
                 <Link href="https://www.figma.com/">Figma</Link> working on
                 FigJam! I love building helpful, delightful, and useful software
-                with a high level of craft and detail.
-              </HeroText>
-            </FadeInWrapper>
-            <FadeInWrapper css={{ "--delay-num": 3 }}>
-              <HeroText>
-                In the past, I was an intern at Figma helping build{" "}
+                with a high level of craft and detail. In the past, I was an intern at Figma helping build{" "}
                 <Link href="https://www.figma.com/figjam/">FigJam</Link> and at{" "}
                 <Link href="https://www.prodigygame.com/">Prodigy</Link> working
                 on an in-house game/prefab editor.
               </HeroText>
+              <HorizontalRule/>
             </FadeInWrapper>
           </Section>
           {/* <Section>
@@ -150,7 +146,7 @@ export default function Index() {
           </Section> */}
           <Section>
             <FadeInWrapper css={{ "--delay-num": 6 }}>
-              <SectionTitle>My work.</SectionTitle>
+              <SectionTitle>Work</SectionTitle>
             </FadeInWrapper>
           </Section>
 
