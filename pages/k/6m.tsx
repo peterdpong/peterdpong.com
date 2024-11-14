@@ -218,7 +218,7 @@ export default function SixMonths() {
           </Subtitle>
         </SectionTitleWrapper>
 
-        <InsetBox title="Together for the first time in person">
+        <InsetBox title="together for the first time in person">
           <DraggableImage
             src="/k/calgary/leia.png"
             width={300}
@@ -272,7 +272,7 @@ export default function SixMonths() {
             }
             <br />
             <br />
-            {"p.s. I am so glad Leia liked me!"}
+            {"p.s. I am so glad Leia loves me!"}
           </Text>
         </TextWrapper>
         <SectionTitleWrapper>
@@ -283,7 +283,7 @@ export default function SixMonths() {
               top: "25px",
             }}
           >
-            <i>You are the best thing.</i>
+            <i>You are the best thing</i>
           </Title>
           <Title
             css={{
@@ -296,7 +296,7 @@ export default function SixMonths() {
           </Title>
         </SectionTitleWrapper>
 
-        <InsetBox title="st. 🐈 + med school + first timeliving together">
+        <InsetBox title="st. 🐈 + med school + first time living together">
           <DraggableImage
             src="/k/stcats/flowers.png"
             width={216}
@@ -494,7 +494,7 @@ export default function SixMonths() {
               top: "25px",
             }}
           >
-            <i>The last 6 months.</i>
+            <i>The last 6 months</i>
           </Title>
           <Title
             css={{
