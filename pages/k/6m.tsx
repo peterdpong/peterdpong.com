@@ -40,6 +40,7 @@ const MainWrapper = styled("div", {
   backgroundColor: "#BA274A",
   minHeight: "100vh",
   width: "100%",
+  paddingBottom: "280px",
 });
 
 const TextWrapper = styled("div", {
@@ -67,6 +68,7 @@ const scaleIn = keyframes({
 });
 
 const ImageWrapper = styled("div", {
+  background: "white",
   position: "absolute",
   border: "8px solid #FAFAFA",
   borderRadius: "8px",
@@ -87,6 +89,58 @@ const ImageWrapper = styled("div", {
       },
     },
   },
+});
+
+const StyledTicketContainer = styled("div", {
+  background: "linear-gradient(135deg, #FFD700, #FDB931)",
+  padding: "24px",
+  borderRadius: "12px",
+  border: "4px dashed #B8860B",
+  maxWidth: "400px",
+  margin: "0 auto",
+  textAlign: "center",
+  position: "relative",
+  boxShadow: "0 4px 12px rgba(0, 0, 0, 0.2)",
+  transition: "transform 0.3s ease, box-shadow 0.3s ease",
+  cursor: "pointer",
+
+  "&:hover": {
+    transform: "translateY(-8px) rotate(-2deg)",
+    boxShadow: `
+      0 16px 30px rgba(0, 0, 0, 0.4),
+      0 10px 15px rgba(0, 0, 0, 0.3)
+    `,
+  },
+
+  "&:before": {
+    content: '""',
+    position: "absolute",
+    top: "-12px",
+    left: "50%",
+    transform: "translateX(-50%)",
+    width: "24px",
+    height: "24px",
+    background: "#FFD700",
+    borderRadius: "50%",
+    border: "2px dashed #B8860B",
+  },
+  "&:after": {
+    content: '""',
+    position: "absolute",
+    bottom: "-12px",
+    left: "50%",
+    transform: "translateX(-50%)",
+    width: "24px",
+    height: "24px",
+    background: "#FFD700",
+    borderRadius: "50%",
+    border: "2px dashed #B8860B",
+  },
+});
+
+const StyledTicketText = styled(Text, {
+  color: "#8B4513",
+  textShadow: "1px 1px 1px rgba(255, 255, 255, 0.3)",
 });
 
 export default function SixMonths() {
@@ -242,7 +296,7 @@ export default function SixMonths() {
           </Title>
         </SectionTitleWrapper>
 
-        <InsetBox title="st. 🐈 + med school + living together">
+        <InsetBox title="st. 🐈 + med school + first timeliving together">
           <DraggableImage
             src="/k/stcats/flowers.png"
             width={216}
@@ -328,9 +382,109 @@ export default function SixMonths() {
         </TextWrapper>
         <SectionTitleWrapper>
           <Title css={{ transform: "rotate(2deg)" }}>
-            <i>I am so happy you are in my life.</i>
+            <i>I am so happy and lucky you are in my life.</i>
           </Title>
         </SectionTitleWrapper>
+
+        <InsetBox title="your 🥼 ceremony and your birthday 🎉">
+          <DraggableImage
+            src="/k/bday/back.png"
+            width={500}
+            height={375}
+            alt="Leia"
+            initialX={180}
+            initialY={120}
+            rotation={-8}
+          />
+          <DraggableImage
+            src="/k/bday/seafood.png"
+            width={216}
+            height={288}
+            alt="Leia"
+            initialX={450}
+            initialY={60}
+            rotation={12}
+          />
+          <DraggableImage
+            src="/k/bday/whitecoat.png"
+            width={216}
+            height={288}
+            alt="Leia"
+            initialX={680}
+            initialY={140}
+            rotation={-15}
+          />
+          <DraggableImage
+            src="/k/bday/flowers.png"
+            width={216}
+            height={288}
+            alt="Leia"
+            initialX={120}
+            initialY={420}
+            rotation={6}
+          />
+          <DraggableImage
+            src="/k/bday/brunch.png"
+            width={216}
+            height={288}
+            alt="Leia"
+            initialX={820}
+            initialY={380}
+            rotation={-10}
+          />
+          <DraggableImage
+            src="/k/bday/peking.png"
+            width={216}
+            height={288}
+            alt="Leia"
+            initialX={580}
+            initialY={280}
+            rotation={14}
+          />
+          <DraggableImage
+            src="/k/bday/halloween.png"
+            width={216}
+            height={288}
+            alt="Leia"
+            initialX={320}
+            initialY={380}
+            rotation={-12}
+          />
+          <DraggableImage
+            src="/k/bday/gift.png"
+            width={216}
+            height={288}
+            alt="Leia"
+            initialX={750}
+            initialY={220}
+            rotation={9}
+          />
+          <DraggableImage
+            src="/k/bday/bed.png"
+            width={216}
+            height={288}
+            alt="Leia"
+            initialX={420}
+            initialY={480}
+            rotation={-7}
+          />
+          <DraggableImage
+            src="/k/bday/together.png"
+            width={504}
+            height={378}
+            alt="Leia"
+            initialX={250}
+            initialY={200}
+            rotation={11}
+          />
+        </InsetBox>
+        <TextWrapper>
+          <Text>
+            {
+              "I was so happy to be able to celebrate your white coat ceremony and your birthday with you! I had such a great time with you and your family and I really hope you had the best birthday ever (sorry I couldn't bring you all your gifts)! I hope all the concerts, food and little activities we did were fun and I can't wait to see you again and really wish I could be there with you all the time."
+            }
+          </Text>
+        </TextWrapper>
 
         <SectionTitleWrapper>
           <Title
@@ -352,6 +506,42 @@ export default function SixMonths() {
             <i>have been the best of my life.</i>
           </Title>
         </SectionTitleWrapper>
+
+        <SectionTitleWrapper>
+          <Title
+            css={{
+              transform: "rotate(-4deg)",
+              position: "relative",
+              top: "25px",
+            }}
+          >
+            <i>A little gift for you. :)</i>
+          </Title>
+        </SectionTitleWrapper>
+
+        <StyledTicketContainer>
+          <ImageWrapper css={{ left: "-350px" }} delay="first">
+            <Image src={"/k/lego1.png"} width={300} height={228.375} alt="us" />
+          </ImageWrapper>
+          <ImageWrapper css={{ right: "-350px" }} delay="second">
+            <Image src={"/k/lego2.png"} width={300} height={228.375} alt="us" />
+          </ImageWrapper>
+          <StyledTicketText css={{ fontSize: "20px", marginBottom: "12px" }}>
+            One Ticket for
+          </StyledTicketText>
+          <StyledTicketText
+            css={{
+              fontSize: "32px",
+              fontWeight: "bold",
+              marginBottom: "12px",
+            }}
+          >
+            Lego Flowers!
+          </StyledTicketText>
+          <StyledTicketText css={{ fontSize: "18px" }}>
+            Redeemable now!
+          </StyledTicketText>
+        </StyledTicketContainer>
       </MainWrapper>
     </>
   );

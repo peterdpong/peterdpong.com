@@ -11,6 +11,7 @@ const ImageWrapper = styled("div", {
   cursor: "grab",
   display: "flex",
   transition: "transform 0.2s, box-shadow 0.2s",
+  background: "white",
   "&:active": {
     cursor: "grabbing",
     transform: "scale(1.02) translateY(-4px)",
