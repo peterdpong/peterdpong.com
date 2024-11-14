@@ -296,7 +296,7 @@ export default function SixMonths() {
           </Title>
         </SectionTitleWrapper>
 
-        <InsetBox title="st. 🐈 + med school + first timeliving together">
+        <InsetBox title="st. 🐈 + med school + first time living together">
           <DraggableImage
             src="/k/stcats/flowers.png"
             width={216}
